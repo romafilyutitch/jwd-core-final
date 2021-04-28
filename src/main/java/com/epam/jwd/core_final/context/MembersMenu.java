@@ -80,8 +80,12 @@ public enum MembersMenu implements ApplicationMenu {
         CrewMemberCriteria randomCriteria = builder.setRandomCriteria().build();
         builder = new CrewMemberCriteria.Builder();
         List<CrewMember> allCrewMembersByCriteria = crewService.findAllCrewMembersByCriteria(randomCriteria);
-        System.out.println("All crew members found by random criteria");
-        allCrewMembersByCriteria.forEach(System.out::println);
+        System.out.println("All crew members found by random criteria " + randomCriteria);
+        if (allCrewMembersByCriteria.size() == 0) {
+            System.out.println("No crew members was found");
+        } else {
+            allCrewMembersByCriteria.forEach(System.out::println);
+        }
     }
 
     private void update() {
@@ -117,7 +121,12 @@ public enum MembersMenu implements ApplicationMenu {
     }
 
     private void printAllCrewMembersByCriteria() {
-        getAllCrewMembersByCriteria().forEach(System.out::println);
+        List<CrewMember> allCrewMembersByCriteria = getAllCrewMembersByCriteria();
+        if (allCrewMembersByCriteria.size() == 0) {
+            System.out.println("No crew members was found");
+        } else {
+            allCrewMembersByCriteria.forEach(System.out::println);
+        }
     }
 
     private void printOneMemberByCriteria() {

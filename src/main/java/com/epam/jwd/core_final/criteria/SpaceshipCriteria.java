@@ -27,6 +27,14 @@ public class SpaceshipCriteria extends Criteria<Spaceship> {
         return flightDistanceEquals == null || spaceship.getFlightDistance().equals(flightDistanceEquals);
     }
 
+
+    @Override
+    public String toString() {
+        return "SpaceshipCriteria{" +
+                "flightDistanceEquals=" + flightDistanceEquals +
+                "} " + super.toString();
+    }
+
     public static class Builder {
         public static final int SPACESHIPS_RANDOM_ID_RANGE = 40;
         public static final int SPACESHIP_RANDOM_FLIGHT_DISTANCE_RANGE = 1_000_000;

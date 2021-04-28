@@ -79,8 +79,12 @@ public enum SpaceshipsMenu implements ApplicationMenu {
         SpaceshipCriteria randomCriteria = builder.setRandomFindCriteria().build();
         builder = new SpaceshipCriteria.Builder();
         List<Spaceship> allCrewMembersByCriteria = spaceshipService.findAllSpaceshipsByCriteria(randomCriteria);
-        System.out.println("All spaceships found by random criteria");
-        allCrewMembersByCriteria.forEach(System.out::println);
+        System.out.println("All spaceships found by random criteria " + randomCriteria);
+        if (allCrewMembersByCriteria.size() == 0) {
+            System.out.println("No spaceships was found");
+        } else {
+            allCrewMembersByCriteria.forEach(System.out::println);
+        }
     }
 
     private void update() {
@@ -104,7 +108,12 @@ public enum SpaceshipsMenu implements ApplicationMenu {
     }
 
     private void printAllSpaceshipsByCriteria() {
-        getAllSpaceshipsByCriteria().forEach(System.out::println);
+        List<Spaceship> allSpaceshipsByCriteria = getAllSpaceshipsByCriteria();
+        if(allSpaceshipsByCriteria.size() == 0) {
+            System.out.println("No spaceships was found");
+        } else {
+            allSpaceshipsByCriteria.forEach(System.out::println);
+        }
     }
 
     private void printOneSpaceshipByCriteria() {

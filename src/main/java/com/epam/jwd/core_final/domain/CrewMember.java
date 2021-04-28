@@ -62,7 +62,10 @@ public class CrewMember extends AbstractBaseEntity {
     @Override
     public String toString() {
         return "CrewMember{" +
-                "id = " + getId() +
-                ", name = " + getName();
+                "role=" + role +
+                ", rank=" + rank +
+                ", isReadyForNextMissions=" + isReadyForNextMissions +
+                ", isAssignedToFlightMission=" + isAssignedToFlightMission +
+                "} " + super.toString();
     }
 }

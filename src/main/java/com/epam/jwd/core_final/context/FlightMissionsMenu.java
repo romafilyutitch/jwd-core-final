@@ -84,9 +84,13 @@ public enum FlightMissionsMenu implements ApplicationMenu {
     private void printAllFlightMissionsByRandomCriteria() {
         FlightMissionCriteria randomCriteria = builder.setRandomFindCriteria().build();
         builder = new FlightMissionCriteria.Builder();
-        List<FlightMission> allCrewMembersByCriteria = missionService.findAllMissionsByCriteria(randomCriteria);
-        System.out.println("All flight missions found by random criteria");
-        allCrewMembersByCriteria.forEach(System.out::println);
+        List<FlightMission> allFlightMissionsByCriteria = missionService.findAllMissionsByCriteria(randomCriteria);
+        System.out.println("All flight missions found by random criteria " + randomCriteria);
+        if (allFlightMissionsByCriteria.size() == 0) {
+            System.out.println("No flight missions was found");
+        } else {
+            allFlightMissionsByCriteria.forEach(System.out::println);
+        }
     }
 
     private void update() {
@@ -113,11 +117,21 @@ public enum FlightMissionsMenu implements ApplicationMenu {
 
     private void printAllFlightMissions() {
         System.out.println("All flight missions");
-        missionService.findAllMissions().forEach(System.out::println);
+        List<FlightMission> allMissions = missionService.findAllMissions();
+        if (allMissions.size() == 0) {
+            System.out.println("No flight missions was found");
+        } else {
+            allMissions.forEach(System.out::println);
+        }
     }
 
     private void printAllFlightMissionsByCriteria() {
-        getAllFlightMissionsByCriteria().forEach(System.out::println);
+        List<FlightMission> allFlightMissionsByCriteria = getAllFlightMissionsByCriteria();
+        if (allFlightMissionsByCriteria.size() == 0) {
+            System.out.println("No flight missions was found");
+        } else {
+            allFlightMissionsByCriteria.forEach(System.out::println);
+        }
     }
 
     private void printOneFlightMissionByCriteria() {

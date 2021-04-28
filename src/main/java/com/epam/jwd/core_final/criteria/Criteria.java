@@ -9,8 +9,8 @@ import java.util.List;
  * Should be a builder for {@link BaseEntity} fields
  */
 public abstract class Criteria<T extends BaseEntity> {
-    protected Long idEquals;
-    protected String nameEquals;
+    Long idEquals;
+    String nameEquals;
 
     public boolean matches(T entity) {
         return checkIfIdEquals(entity) && checkIfNameEquals(entity);
@@ -31,4 +31,11 @@ public abstract class Criteria<T extends BaseEntity> {
         return nameEquals == null || nameEquals.equals(entity.getName());
     }
 
+    @Override
+    public String toString() {
+        return "Criteria{" +
+                "idEquals=" + idEquals +
+                ", nameEquals='" + nameEquals + '\'' +
+                '}';
+    }
 }

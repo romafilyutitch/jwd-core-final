@@ -50,6 +50,9 @@ public abstract class AbstractBaseEntity implements BaseEntity {
 
     @Override
     public String toString() {
-        return "AbstractBaseEntity { id = " + id + ", name = " + name + "}";
+        return "AbstractBaseEntity{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
     }
 }

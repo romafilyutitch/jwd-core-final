@@ -38,6 +38,13 @@ public class CrewMemberCriteria extends Criteria<CrewMember> {
         return rankIs == null || rankIs == crewMember.getRank();
     }
 
+    @Override
+    public String toString() {
+        return "CrewMemberCriteria{" +
+                "roleIs=" + roleIs +
+                ", rankIs=" + rankIs +
+                "} " + super.toString();
+    }
 
     public static class Builder {
         private CrewMemberCriteria product = new CrewMemberCriteria();

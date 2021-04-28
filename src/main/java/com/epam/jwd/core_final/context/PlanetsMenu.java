@@ -50,6 +50,10 @@ public enum PlanetsMenu implements ApplicationMenu {
 
     private void printAllPlanets() {
         List<Planet> planets = spacemapService.getAllPlanets();
-        planets.forEach(System.out::println);
+        if (planets.size() == 0) {
+            System.out.println("No planets was found");
+        } else {
+            planets.forEach(System.out::println);
+        }
     }
 }

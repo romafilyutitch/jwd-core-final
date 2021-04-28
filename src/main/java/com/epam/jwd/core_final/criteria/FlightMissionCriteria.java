@@ -31,6 +31,18 @@ public class FlightMissionCriteria extends Criteria<FlightMission> {
     }
 
     @Override
+    public String toString() {
+        return "FlightMissionCriteria{" +
+                "missionsNameEquals='" + missionsNameEquals + '\'' +
+                ", startDateEquals=" + startDateEquals +
+                ", endDateEquals=" + endDateEquals +
+                ", missionResultIs=" + missionResultIs +
+                ", toPlanetNameIs='" + toPlanetNameIs + '\'' +
+                ", fromPlanetNameIs='" + fromPlanetNameIs + '\'' +
+                "} " + super.toString();
+    }
+
+    @Override
     public List<String> getListOfCriteriaNames() {
         List<String> criteriaNames = new ArrayList<>(super.getListOfCriteriaNames());
         criteriaNames.add("missionsNameEquals");
