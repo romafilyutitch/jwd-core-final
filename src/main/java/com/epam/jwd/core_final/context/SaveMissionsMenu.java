@@ -44,7 +44,7 @@ public enum SaveMissionsMenu implements ApplicationMenu {
         String filePath = properties.getOutputRootDir() + File.separator + properties.getMissionsFileName();
         List<FlightMission> allMissions = missionService.findAllMissions();
         StringBuilder builder = new StringBuilder();
-        try (PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter(filePath, true)))) {
+        try (PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter(filePath)))) {
             for (FlightMission mission : allMissions) {
                 builder.append(mapper.writeValueAsString(mission)).append("\n");
             }
