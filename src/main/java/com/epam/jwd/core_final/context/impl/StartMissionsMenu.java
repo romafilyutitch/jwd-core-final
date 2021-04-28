@@ -1,6 +1,7 @@
-package com.epam.jwd.core_final.context;
+package com.epam.jwd.core_final.context.impl;
 
-import com.epam.jwd.core_final.context.impl.NassaContext;
+import com.epam.jwd.core_final.context.ApplicationContext;
+import com.epam.jwd.core_final.context.ApplicationMenu;
 import com.epam.jwd.core_final.domain.FlightMission;
 import com.epam.jwd.core_final.exception.NotAbleToBeStartedException;
 import com.epam.jwd.core_final.service.MissionService;
@@ -29,6 +30,10 @@ public enum StartMissionsMenu implements ApplicationMenu {
     public ApplicationMenu handleUserInput(String userInput) {
         logger.trace("user input {} is being handled", userInput);
         List<FlightMission> allMissions = missionService.findAllMissions();
+        if (allMissions.isEmpty()) {
+            System.out.println("There is no flight missions in storage. Try to create flight missions at first");
+            return MainMenu.INSTANCE;
+        }
         for (FlightMission mission : allMissions) {
             try {
                 FlightMission startedMission = missionService.startMission(mission);

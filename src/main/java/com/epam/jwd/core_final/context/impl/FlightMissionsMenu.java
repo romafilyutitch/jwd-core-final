@@ -1,12 +1,11 @@
-package com.epam.jwd.core_final.context;
+package com.epam.jwd.core_final.context.impl;
 
-import com.epam.jwd.core_final.context.impl.NassaContext;
+import com.epam.jwd.core_final.context.ApplicationContext;
+import com.epam.jwd.core_final.context.ApplicationMenu;
 import com.epam.jwd.core_final.criteria.FlightMissionCriteria;
-import com.epam.jwd.core_final.criteria.SpaceshipCriteria;
 import com.epam.jwd.core_final.domain.FlightMission;
 import com.epam.jwd.core_final.domain.MissionResult;
 import com.epam.jwd.core_final.domain.Planet;
-import com.epam.jwd.core_final.domain.Spaceship;
 import com.epam.jwd.core_final.factory.EntityFactory;
 import com.epam.jwd.core_final.factory.impl.FlightMissionFactory;
 import com.epam.jwd.core_final.service.MissionService;
@@ -86,7 +85,7 @@ public enum FlightMissionsMenu implements ApplicationMenu {
         builder = new FlightMissionCriteria.Builder();
         List<FlightMission> allFlightMissionsByCriteria = missionService.findAllMissionsByCriteria(randomCriteria);
         System.out.println("All flight missions found by random criteria " + randomCriteria);
-        if (allFlightMissionsByCriteria.size() == 0) {
+        if (allFlightMissionsByCriteria.isEmpty()) {
             System.out.println("No flight missions was found");
         } else {
             allFlightMissionsByCriteria.forEach(System.out::println);
@@ -118,7 +117,7 @@ public enum FlightMissionsMenu implements ApplicationMenu {
     private void printAllFlightMissions() {
         System.out.println("All flight missions");
         List<FlightMission> allMissions = missionService.findAllMissions();
-        if (allMissions.size() == 0) {
+        if (allMissions.isEmpty()) {
             System.out.println("No flight missions was found");
         } else {
             allMissions.forEach(System.out::println);
@@ -127,7 +126,7 @@ public enum FlightMissionsMenu implements ApplicationMenu {
 
     private void printAllFlightMissionsByCriteria() {
         List<FlightMission> allFlightMissionsByCriteria = getAllFlightMissionsByCriteria();
-        if (allFlightMissionsByCriteria.size() == 0) {
+        if (allFlightMissionsByCriteria.isEmpty()) {
             System.out.println("No flight missions was found");
         } else {
             allFlightMissionsByCriteria.forEach(System.out::println);

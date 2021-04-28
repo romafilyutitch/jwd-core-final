@@ -1,6 +1,7 @@
-package com.epam.jwd.core_final.context;
+package com.epam.jwd.core_final.context.impl;
 
-import com.epam.jwd.core_final.context.impl.NassaContext;
+import com.epam.jwd.core_final.context.ApplicationContext;
+import com.epam.jwd.core_final.context.ApplicationMenu;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

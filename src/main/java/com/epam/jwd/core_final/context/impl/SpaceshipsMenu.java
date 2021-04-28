@@ -1,9 +1,8 @@
-package com.epam.jwd.core_final.context;
+package com.epam.jwd.core_final.context.impl;
 
-import com.epam.jwd.core_final.context.impl.NassaContext;
-import com.epam.jwd.core_final.criteria.CrewMemberCriteria;
+import com.epam.jwd.core_final.context.ApplicationContext;
+import com.epam.jwd.core_final.context.ApplicationMenu;
 import com.epam.jwd.core_final.criteria.SpaceshipCriteria;
-import com.epam.jwd.core_final.domain.CrewMember;
 import com.epam.jwd.core_final.domain.Spaceship;
 import com.epam.jwd.core_final.factory.EntityFactory;
 import com.epam.jwd.core_final.factory.impl.SpaceshipFactory;
@@ -80,7 +79,7 @@ public enum SpaceshipsMenu implements ApplicationMenu {
         builder = new SpaceshipCriteria.Builder();
         List<Spaceship> allCrewMembersByCriteria = spaceshipService.findAllSpaceshipsByCriteria(randomCriteria);
         System.out.println("All spaceships found by random criteria " + randomCriteria);
-        if (allCrewMembersByCriteria.size() == 0) {
+        if (allCrewMembersByCriteria.isEmpty()) {
             System.out.println("No spaceships was found");
         } else {
             allCrewMembersByCriteria.forEach(System.out::println);
@@ -109,7 +108,7 @@ public enum SpaceshipsMenu implements ApplicationMenu {
 
     private void printAllSpaceshipsByCriteria() {
         List<Spaceship> allSpaceshipsByCriteria = getAllSpaceshipsByCriteria();
-        if(allSpaceshipsByCriteria.size() == 0) {
+        if(allSpaceshipsByCriteria.isEmpty()) {
             System.out.println("No spaceships was found");
         } else {
             allSpaceshipsByCriteria.forEach(System.out::println);

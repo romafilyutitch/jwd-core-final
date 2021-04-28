@@ -1,6 +1,7 @@
-package com.epam.jwd.core_final.context;
+package com.epam.jwd.core_final.context.impl;
 
-import com.epam.jwd.core_final.context.impl.NassaContext;
+import com.epam.jwd.core_final.context.ApplicationContext;
+import com.epam.jwd.core_final.context.ApplicationMenu;
 import com.epam.jwd.core_final.criteria.CrewMemberCriteria;
 import com.epam.jwd.core_final.domain.CrewMember;
 import com.epam.jwd.core_final.domain.Rank;
@@ -81,7 +82,7 @@ public enum MembersMenu implements ApplicationMenu {
         builder = new CrewMemberCriteria.Builder();
         List<CrewMember> allCrewMembersByCriteria = crewService.findAllCrewMembersByCriteria(randomCriteria);
         System.out.println("All crew members found by random criteria " + randomCriteria);
-        if (allCrewMembersByCriteria.size() == 0) {
+        if (allCrewMembersByCriteria.isEmpty()) {
             System.out.println("No crew members was found");
         } else {
             allCrewMembersByCriteria.forEach(System.out::println);
@@ -122,7 +123,7 @@ public enum MembersMenu implements ApplicationMenu {
 
     private void printAllCrewMembersByCriteria() {
         List<CrewMember> allCrewMembersByCriteria = getAllCrewMembersByCriteria();
-        if (allCrewMembersByCriteria.size() == 0) {
+        if (allCrewMembersByCriteria.isEmpty()) {
             System.out.println("No crew members was found");
         } else {
             allCrewMembersByCriteria.forEach(System.out::println);

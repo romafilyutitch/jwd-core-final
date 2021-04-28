@@ -1,6 +1,7 @@
-package com.epam.jwd.core_final.context;
+package com.epam.jwd.core_final.context.impl;
 
-import com.epam.jwd.core_final.context.impl.NassaContext;
+import com.epam.jwd.core_final.context.ApplicationContext;
+import com.epam.jwd.core_final.context.ApplicationMenu;
 import com.epam.jwd.core_final.domain.Planet;
 import com.epam.jwd.core_final.service.SpacemapService;
 import com.epam.jwd.core_final.service.impl.SpaceMapServiceImpl;
@@ -50,7 +51,7 @@ public enum PlanetsMenu implements ApplicationMenu {
 
     private void printAllPlanets() {
         List<Planet> planets = spacemapService.getAllPlanets();
-        if (planets.size() == 0) {
+        if (planets.isEmpty()) {
             System.out.println("No planets was found");
         } else {
             planets.forEach(System.out::println);

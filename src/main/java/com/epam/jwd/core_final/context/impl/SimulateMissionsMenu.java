@@ -1,6 +1,7 @@
-package com.epam.jwd.core_final.context;
+package com.epam.jwd.core_final.context.impl;
 
-import com.epam.jwd.core_final.context.impl.NassaContext;
+import com.epam.jwd.core_final.context.ApplicationContext;
+import com.epam.jwd.core_final.context.ApplicationMenu;
 import com.epam.jwd.core_final.domain.FlightMission;
 import com.epam.jwd.core_final.domain.MissionResult;
 import com.epam.jwd.core_final.service.MissionService;
@@ -33,6 +34,10 @@ public enum SimulateMissionsMenu implements ApplicationMenu {
         logger.trace("user input {} is being handled", userInput);
         long years = Long.parseLong(userInput);
         List<FlightMission> allMissions = missionService.findAllMissions();
+        if (allMissions.isEmpty()) {
+            System.out.println("There is no flight mission in storage. Try to create and the start missions");
+            return MainMenu.INSTANCE;
+        }
         allMissions.forEach(mission -> {
             MissionResult startOfSimulationResult = mission.getMissionResult();
             MissionResult endOfSimulationResult = missionService.simulate(mission, years).getMissionResult();

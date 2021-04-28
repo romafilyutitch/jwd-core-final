@@ -1,6 +1,7 @@
-package com.epam.jwd.core_final.context;
+package com.epam.jwd.core_final.context.impl;
 
-import com.epam.jwd.core_final.context.impl.NassaContext;
+import com.epam.jwd.core_final.context.ApplicationContext;
+import com.epam.jwd.core_final.context.ApplicationMenu;
 import com.epam.jwd.core_final.domain.ApplicationProperties;
 import com.epam.jwd.core_final.domain.FlightMission;
 import com.epam.jwd.core_final.service.MissionService;
@@ -40,6 +41,10 @@ public enum SaveMissionsMenu implements ApplicationMenu {
         makeDirs();
         String filePath = properties.getOutputRootDir() + File.separator + properties.getMissionsFileName();
         List<FlightMission> allMissions = missionService.findAllMissions();
+        if (allMissions.isEmpty()) {
+            System.out.println("There is no flight missions in storage. Try to create flight missions at first");
+            return MainMenu.INSTANCE;
+        }
         StringBuilder builder = new StringBuilder();
         try (PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter(filePath)))) {
             for (FlightMission mission : allMissions) {
