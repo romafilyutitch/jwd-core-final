@@ -2,11 +2,14 @@ package com.epam.jwd.core_final.util;
 
 import com.epam.jwd.core_final.domain.ApplicationProperties;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.Properties;
 
 public final class PropertyReaderUtil {
 
-    private static final Properties properties = new Properties();
+    private static final Properties PROPERTIES = new Properties();
+    private static final String PROPERTIES_FILE_PATH = "src/main/resources/application.properties";
 
     private PropertyReaderUtil() {
     }
@@ -20,7 +23,14 @@ public final class PropertyReaderUtil {
      * values from property file
      */
     public static void loadProperties() {
-        final String propertiesFileName = "resource/application.properties";
+        try (FileInputStream input = new FileInputStream(PROPERTIES_FILE_PATH)) {
+            PROPERTIES.load(input);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
+    public static String readProperty(String key) {
+        return PROPERTIES.getProperty(key);
     }
 }

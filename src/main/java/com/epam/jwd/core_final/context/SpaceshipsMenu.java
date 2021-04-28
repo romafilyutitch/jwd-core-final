@@ -1,0 +1,125 @@
+package com.epam.jwd.core_final.context;
+
+import com.epam.jwd.core_final.context.impl.NassaContext;
+import com.epam.jwd.core_final.criteria.SpaceshipCriteria;
+import com.epam.jwd.core_final.domain.Spaceship;
+import com.epam.jwd.core_final.factory.EntityFactory;
+import com.epam.jwd.core_final.factory.impl.SpaceshipFactory;
+import com.epam.jwd.core_final.service.SpaceshipService;
+import com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public enum SpaceshipsMenu implements ApplicationMenu {
+    INSTANCE;
+    private static final Logger logger = LoggerFactory.getLogger(SpaceshipsMenu.class);
+    private final SpaceshipService spaceshipService = SpaceShipServiceImpl.INSTANCE;
+    private final List<String> commands = new ArrayList<>();
+    private final Scanner scanner = new Scanner(System.in);
+    private  SpaceshipCriteria.Builder builder = new SpaceshipCriteria.Builder();
+
+    SpaceshipsMenu() {
+        commands.add("back");
+        commands.add("printAll");
+        commands.add("printAllCriteria");
+        commands.add("printOneCriteria");
+        commands.add("update");
+    }
+    @Override
+    public ApplicationContext getApplicationContext() {
+        return NassaContext.INSTANCE;
+    }
+
+    @Override
+    public String printAvailableOptions() {
+        System.out.println("List of options with spaceship service");
+        System.out.println(commands);
+        System.out.print("Enter command >>");
+        return scanner.next();
+    }
+
+    @Override
+    public ApplicationMenu handleUserInput(String userInput) {
+        logger.trace("user input {} is being handled", userInput);
+        switch (userInput) {
+            case "back" : return MainMenu.INSTANCE;
+            case "printAll" : printAllSpaceships(); break;
+            case "printAllCriteria" : printAllSpaceshipsByCriteria(); break;
+            case "printOneCriteria" :  printOneSpaceshipByCriteria(); break;
+            case "update" : update() ; break;
+            default: System.out.println("There is no such command. Try again");
+            return this;
+        }
+        logger.trace("user input {} was handled", userInput);
+        return MainMenu.INSTANCE;
+    }
+
+    private void update() {
+        Spaceship spaceship = makeUpdateObject();
+        spaceshipService.updateSpaceshipDetails(spaceship);
+    }
+
+    private Spaceship makeUpdateObject() {
+        System.out.println("Enter name of spaceship to update");
+        String name = scanner.next();
+        System.out.println("Enter distance of spaceship to update");
+        long distance = scanner.nextInt();
+        EntityFactory<Spaceship> factory = new SpaceshipFactory();
+        return factory.create(name, distance, "");
+    }
+
+    private void printAllSpaceships() {
+        System.out.println("All spaceships");
+        spaceshipService.findAllSpaceships().forEach(System.out::println);
+    }
+
+    private void printAllSpaceshipsByCriteria() {
+        getAllSpaceshipsByCriteria().forEach(System.out::println);
+    }
+
+    private void printOneSpaceshipByCriteria() {
+        System.out.println("One of spaceships found by criteria");
+        getAllSpaceshipsByCriteria().stream()
+                .findAny()
+                .ifPresentOrElse(System.out::println, () -> System.out.println("There is no such spaceship in storage"));
+    }
+
+    private List<Spaceship> getAllSpaceshipsByCriteria() {
+        System.out.println("List of criteria names");
+        System.out.println(builder.getListOfCriteriaNames());
+        System.out.print("Enter one of criteria >>");
+        String criteria = scanner.next();
+        switch (criteria) {
+            case "nameEquals" : nameEquals(builder); break;
+            case "idEquals" : idEquals(builder); break;
+            case "flightDistanceEquals" : flightDistanceEquals(builder); break;
+            default:
+                System.out.println("There is no such criteria");
+        }
+        SpaceshipCriteria criteriaResult = builder.build();
+        builder = new SpaceshipCriteria.Builder();
+        return spaceshipService.findAllSpaceshipsByCriteria(criteriaResult);
+    }
+
+    private void nameEquals(SpaceshipCriteria.Builder builder) {
+        System.out.print("Enter name : ");
+        String input = scanner.next();
+        builder.nameEquals(input);
+    }
+
+    private void idEquals(SpaceshipCriteria.Builder builder) {
+        System.out.print("Enter id equals : ");
+        long input = scanner.nextInt();
+        builder.idEquals(input);
+    }
+
+    private void flightDistanceEquals(SpaceshipCriteria.Builder builder) {
+        System.out.println("Enter flight distance equals");
+        long input = scanner.nextInt();
+        builder.flightDistanceEquals(input);
+    }
+}

@@ -1,0 +1,64 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+    <appender name="contextAppender" class="org.apache.log4j.RollingFileAppender">
+        <param name="file" value="logs/contextLog.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="serviceAppender" class="org.apache.log4j.RollingFileAppender">
+        <param name="file" value="logs/serviceLog.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="factoryAppender" class="org.apache.log4j.RollingFileAppender">
+        <param name="file" value="logs/factoryLog.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="storageAppender" class="org.apache.log4j.RollingFileAppender">
+        <param name="file" value="logs/storageLog.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="appAppender" class="org.apache.log4j.RollingFileAppender">
+        <param name="file" value="logs/AppLog.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n"/>
+        </layout>
+    </appender>
+
+    <category name="com.epam.jwd.core_final.context">
+        <priority value="all"/>
+        <appender-ref ref="contextAppender"/>
+    </category>
+
+    <category name="com.epam.jwd.core_final.service">
+        <priority value="all"/>
+        <appender-ref ref="serviceAppender"/>
+    </category>
+
+    <category name="com.epam.jwd.core_final.factory">
+        <priority value="all"/>
+        <appender-ref ref="factoryAppender"/>
+    </category>
+
+    <category name="com.epam.jwd.core_final.storage">
+        <priority value="all"/>
+        <appender-ref ref="storageAppender"/>
+    </category>
+
+    <category name="com.epam.jwd.core_final.app">
+        <priority value="all"/>
+        <appender-ref ref="appAppender"/>
+    </category>
+
+</log4j:configuration>

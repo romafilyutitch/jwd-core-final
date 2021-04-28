@@ -1,0 +1,1819 @@
+2021-04-28 13:20:32 TRACE NassaContext - Enter in init method
+2021-04-28 13:20:33 INFO  NassaContext - population is completed
+2021-04-28 13:20:33 INFO  NassaContext - creation of entities in storage
+2021-04-28 13:20:33 INFO  NassaContext - creation of entities is completed
+2021-04-28 13:20:33 TRACE NassaContext - init is completed
+2021-04-28 13:20:48 TRACE MainMenu - user input createMissions is being handled
+2021-04-28 13:20:50 TRACE CreateMissionsMenu - User input 3 is being handed
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:15)
+2021-04-28 13:20:50 TRACE CreateMissionsMenu - User input 3 was handled
+2021-04-28 13:20:56 TRACE MainMenu - user input startAll is being handled
+2021-04-28 13:20:56 TRACE StartMissionsMenu - user input null is being handled
+2021-04-28 13:20:56 TRACE StartMissionsMenu - user input null was started
+2021-04-28 13:21:01 TRACE MainMenu - user input saveAll is being handled
+2021-04-28 13:21:01 TRACE SaveMissionsMenu - saving state of all flight missions in JSON file
+2021-04-28 13:21:01 INFO  SaveMissionsMenu - all missions was saved
+2021-04-28 13:21:01 TRACE SaveMissionsMenu - saving was completed
+2021-04-28 13:21:04 TRACE MainMenu - user input exit is being handled
+2021-04-28 13:24:28 TRACE NassaContext - Enter in init method
+2021-04-28 13:24:29 INFO  NassaContext - population is completed
+2021-04-28 13:24:29 INFO  NassaContext - creation of entities in storage
+2021-04-28 13:24:29 INFO  NassaContext - creation of entities is completed
+2021-04-28 13:24:29 TRACE NassaContext - init is completed
+2021-04-28 13:24:39 TRACE MainMenu - user input createMissions is being handled
+2021-04-28 13:24:41 TRACE CreateMissionsMenu - User input 3 is being handed
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:24:41 TRACE CreateMissionsMenu - User input 3 was handled
+2021-04-28 13:24:53 TRACE MainMenu - user input missions is being handled
+2021-04-28 13:24:55 TRACE FlightMissionsMenu - user input printAll is being handled
+2021-04-28 13:24:55 TRACE FlightMissionsMenu - user input printAll was handled
+2021-04-28 13:24:59 TRACE MainMenu - user input startAll is being handled
+2021-04-28 13:24:59 TRACE StartMissionsMenu - user input null is being handled
+2021-04-28 13:24:59 TRACE StartMissionsMenu - user input null was started
+2021-04-28 13:25:02 TRACE MainMenu - user input missions is being handled
+2021-04-28 13:25:04 TRACE FlightMissionsMenu - user input printAll is being handled
+2021-04-28 13:25:04 TRACE FlightMissionsMenu - user input printAll was handled
+2021-04-28 13:25:08 TRACE MainMenu - user input saveAll is being handled
+2021-04-28 13:25:08 TRACE SaveMissionsMenu - saving state of all flight missions in JSON file
+2021-04-28 13:25:08 INFO  SaveMissionsMenu - all missions was saved
+2021-04-28 13:25:08 TRACE SaveMissionsMenu - saving was completed
+2021-04-28 13:25:13 TRACE MainMenu - user input missions is being handled
+2021-04-28 13:25:15 TRACE FlightMissionsMenu - user input printAll is being handled
+2021-04-28 13:25:15 TRACE FlightMissionsMenu - user input printAll was handled
+2021-04-28 13:25:20 TRACE MainMenu - user input simulateAll is being handled
+2021-04-28 13:25:23 TRACE SimulateMissionsMenu - user input 200 is being handled
+2021-04-28 13:25:23 TRACE SimulateMissionsMenu - user input 200 was handled
+2021-04-28 13:25:34 TRACE MainMenu - user input createMissions is being handled
+2021-04-28 13:25:36 TRACE CreateMissionsMenu - User input 5 is being handed
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Spaceship is already assigned to flight mission
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Spaceship is already assigned to flight mission
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:83)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Spaceship is already assigned to flight mission
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Spaceship is already assigned to flight mission
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:83)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Spaceship is already assigned to flight mission
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Spaceship is already assigned to flight mission
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:83)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:61)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:97)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Crew member is already in crew members list
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Crew member is already in crew members list
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Crew member is already in crew members list
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Crew member is already in crew members list
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Crew member is already in crew members list
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Crew member is already in crew members list
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Crew member is already in crew members list
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Crew member is already in crew members list
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:87)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:91)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:60)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:68)
+	at com.epam.jwd.core_final.context.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:16)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-28 13:25:36 TRACE CreateMissionsMenu - User input 5 was handled
+2021-04-28 13:25:41 TRACE MainMenu - user input missions is being handled
+2021-04-28 13:25:44 TRACE FlightMissionsMenu - user input printAll is being handled
+2021-04-28 13:25:44 TRACE FlightMissionsMenu - user input printAll was handled
+2021-04-28 13:25:57 TRACE MainMenu - user input startAll is being handled
+2021-04-28 13:25:57 TRACE StartMissionsMenu - user input null is being handled
+2021-04-28 13:25:57 TRACE StartMissionsMenu - user input null was started
+2021-04-28 13:26:23 TRACE MainMenu - user input saveAll is being handled
+2021-04-28 13:26:23 TRACE SaveMissionsMenu - saving state of all flight missions in JSON file
+2021-04-28 13:26:23 INFO  SaveMissionsMenu - all missions was saved
+2021-04-28 13:26:23 TRACE SaveMissionsMenu - saving was completed
+2021-04-28 13:26:27 TRACE MainMenu - user input exit' is being handled
+2021-04-28 13:26:27 TRACE MainMenu - user input exit' was handled
+2021-04-28 13:26:30 TRACE MainMenu - user input exit is being handled
