@@ -14,13 +14,14 @@ import java.util.Scanner;
 public enum PlanetsMenu implements ApplicationMenu {
     INSTANCE;
     private static final Logger logger = LoggerFactory.getLogger(PlanetsMenu.class);
-    private Scanner scanner = new Scanner(System.in);
-    private List<String> commands = new ArrayList<>();
-    private SpacemapService spacemapService = SpaceMapServiceImpl.INSTANCE;
+    private final Scanner scanner = new Scanner(System.in);
+    private final List<String> commands = new ArrayList<>();
+    private final SpacemapService spacemapService = SpaceMapServiceImpl.INSTANCE;
 
     PlanetsMenu() {
         commands.add("printAll");
     }
+
     @Override
     public ApplicationContext getApplicationContext() {
         return NassaContext.INSTANCE;
@@ -29,6 +30,7 @@ public enum PlanetsMenu implements ApplicationMenu {
     @Override
     public String printAvailableOptions() {
         System.out.println("List of options with planet service");
+        System.out.println(commands);
         System.out.print("Enter command >>");
         return scanner.next();
     }

@@ -8,35 +8,30 @@ import com.epam.jwd.core_final.domain.Spaceship;
 import com.epam.jwd.core_final.exception.NotAbleToBeAssignedException;
 import com.epam.jwd.core_final.exception.NotAbleToBeCreatedException;
 import com.epam.jwd.core_final.factory.EntityFactory;
-import com.epam.jwd.core_final.factory.impl.CrewMemberFactory;
 import com.epam.jwd.core_final.factory.impl.FlightMissionFactory;
-import com.epam.jwd.core_final.factory.impl.SpaceshipFactory;
 import com.epam.jwd.core_final.service.CrewService;
 import com.epam.jwd.core_final.service.MissionService;
 import com.epam.jwd.core_final.service.SpacemapService;
 import com.epam.jwd.core_final.service.SpaceshipService;
 import com.epam.jwd.core_final.service.impl.CrewServiceImpl;
 import com.epam.jwd.core_final.service.impl.MissionServiceImpl;
-import com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl;
 import com.epam.jwd.core_final.service.impl.SpaceMapServiceImpl;
+import com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.List;
-import java.util.Random;
 import java.util.Scanner;
 
 public enum CreateMissionsMenu implements ApplicationMenu {
     INSTANCE;
     private static final Logger logger = LoggerFactory.getLogger(CreateMissionsMenu.class);
-    Scanner scanner = new Scanner(System.in);
-    MissionService missionService = MissionServiceImpl.INSTANCE;
-    CrewService crewService = CrewServiceImpl.INSTANCE;
-    SpacemapService spaceMapService = SpaceMapServiceImpl.INSTANCE;
-    SpaceshipService spaceshipService = SpaceShipServiceImpl.INSTANCE;
-    EntityFactory<FlightMission> missionFactory = new FlightMissionFactory();
-    EntityFactory<CrewMember> crewMemberFactory = new CrewMemberFactory();
-    EntityFactory<Spaceship> spaceshipFactory = new SpaceshipFactory();
+    private final Scanner scanner = new Scanner(System.in);
+    private final MissionService missionService = MissionServiceImpl.INSTANCE;
+    private final CrewService crewService = CrewServiceImpl.INSTANCE;
+    private final SpacemapService spaceMapService = SpaceMapServiceImpl.INSTANCE;
+    private final SpaceshipService spaceshipService = SpaceShipServiceImpl.INSTANCE;
+    private final EntityFactory<FlightMission> missionFactory = FlightMissionFactory.INSTANCE;
 
     @Override
     public ApplicationContext getApplicationContext() {
@@ -79,7 +74,8 @@ public enum CreateMissionsMenu implements ApplicationMenu {
                 Planet fromPlanet = spaceMapService.getRandomPlanet();
                 Planet toPlanet = spaceMapService.getRandomPlanet();
                 FlightMission newMission = missionFactory.create(fromPlanet.getName() + "->" + toPlanet.getName(), fromPlanet, toPlanet);
-                missionService.createMission(newMission);
+                FlightMission createdMission = missionService.createMission(newMission);
+                logger.info("Flight mission {} was created", createdMission);
                 System.out.println("Mission " + newMission.getMissionsName() + " was created");
                 amountOfCreatedFlightMissions++;
             } catch (NotAbleToBeCreatedException e) {
@@ -90,7 +86,6 @@ public enum CreateMissionsMenu implements ApplicationMenu {
     }
 
     private void assignAllSpaceShips() {
-        Random random = new Random();
         List<Spaceship> spaceships = spaceshipService.findAllSpaceships();
         for (Spaceship spaceship : spaceships) {
             try {

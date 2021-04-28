@@ -1,14 +1,15 @@
 package com.epam.jwd.core_final.factory.impl;
 
-import com.epam.jwd.core_final.domain.BaseEntity;
 import com.epam.jwd.core_final.domain.FlightMission;
 import com.epam.jwd.core_final.domain.Planet;
 import com.epam.jwd.core_final.factory.EntityFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class FlightMissionFactory implements EntityFactory<FlightMission> {
+public enum FlightMissionFactory implements EntityFactory<FlightMission> {
+    INSTANCE;
     private static final Logger logger = LoggerFactory.getLogger(FlightMissionFactory.class);
+
     @Override
     public FlightMission create(Object... args) {
         logger.trace("creation of FlightMission object ");

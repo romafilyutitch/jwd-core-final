@@ -19,9 +19,9 @@ import java.util.List;
 public enum SaveMissionsMenu implements ApplicationMenu {
     INSTANCE;
     private static final Logger logger = LoggerFactory.getLogger(SaveMissionsMenu.class);
-    MissionService missionService = MissionServiceImpl.INSTANCE;
-    ApplicationProperties properties = ApplicationProperties.INSTANCE;
-    ObjectMapper mapper = new ObjectMapper().findAndRegisterModules();
+    private final MissionService missionService = MissionServiceImpl.INSTANCE;
+    private final ApplicationProperties properties = ApplicationProperties.INSTANCE;
+    private final ObjectMapper mapper = new ObjectMapper().findAndRegisterModules();
 
     @Override
     public ApplicationContext getApplicationContext() {
@@ -37,10 +37,7 @@ public enum SaveMissionsMenu implements ApplicationMenu {
     @Override
     public ApplicationMenu handleUserInput(String userInput) {
         logger.trace("saving state of all flight missions in JSON file");
-        File outputDir = new File(properties.getOutputRootDir());
-        if (!outputDir.exists()) {
-            outputDir.mkdirs();
-        }
+        makeDirs();
         String filePath = properties.getOutputRootDir() + File.separator + properties.getMissionsFileName();
         List<FlightMission> allMissions = missionService.findAllMissions();
         StringBuilder builder = new StringBuilder();
@@ -58,5 +55,14 @@ public enum SaveMissionsMenu implements ApplicationMenu {
         logger.trace("saving was completed");
         System.out.println("Missions was saved in JSON file");
         return MainMenu.INSTANCE;
+    }
+
+    private void makeDirs() {
+        File outputDir = new File(properties.getOutputRootDir());
+        if (!outputDir.exists()) {
+            if (outputDir.mkdirs()) {
+                logger.info("Output directory was created");
+            }
+        }
     }
 }

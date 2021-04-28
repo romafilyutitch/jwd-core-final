@@ -8,7 +8,6 @@ import com.epam.jwd.core_final.exception.NotAbleToBeAssignedException;
 import com.epam.jwd.core_final.exception.NotAbleToBeCreatedException;
 import com.epam.jwd.core_final.service.CrewService;
 import com.epam.jwd.core_final.service.MissionService;
-import com.epam.jwd.core_final.service.SpacemapService;
 import com.epam.jwd.core_final.storage.AbstractBaseEntityStorage;
 import com.epam.jwd.core_final.storage.impl.SimpleAbstractBaseEntityStorage;
 import org.slf4j.Logger;
@@ -23,8 +22,7 @@ public enum CrewServiceImpl implements CrewService {
     INSTANCE;
     private static final Logger logger = LoggerFactory.getLogger(CrewServiceImpl.class);
     private final AbstractBaseEntityStorage<CrewMember> storage = new SimpleAbstractBaseEntityStorage<>();
-    private SpacemapService spacemapService = SpaceMapServiceImpl.INSTANCE;
-    private MissionService missionService = MissionServiceImpl.INSTANCE;
+    private final MissionService missionService = MissionServiceImpl.INSTANCE;
 
     @Override
     public List<CrewMember> findAllCrewMembers() {

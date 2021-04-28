@@ -1,6 +1,5 @@
 package com.epam.jwd.core_final.criteria;
 
-import com.epam.jwd.core_final.domain.BaseEntity;
 import com.epam.jwd.core_final.domain.Spaceship;
 
 import java.util.ArrayList;
@@ -29,6 +28,8 @@ public class SpaceshipCriteria extends Criteria<Spaceship> {
     }
 
     public static class Builder {
+        public static final int SPACESHIPS_RANDOM_ID_RANGE = 40;
+        public static final int SPACESHIP_RANDOM_FLIGHT_DISTANCE_RANGE = 1_000_000;
         private SpaceshipCriteria product = new SpaceshipCriteria();
 
         public List<String> getListOfCriteriaNames() {
@@ -52,8 +53,8 @@ public class SpaceshipCriteria extends Criteria<Spaceship> {
 
         public Builder setRandomFindCriteria() {
             Random random = new Random();
-            idEquals((long) random.nextInt(40));
-            flightDistanceEquals((long) random.nextInt(1_000_000));
+            idEquals((long) random.nextInt(SPACESHIPS_RANDOM_ID_RANGE));
+            flightDistanceEquals((long) random.nextInt(SPACESHIP_RANDOM_FLIGHT_DISTANCE_RANGE));
             return this;
         }
 

@@ -13,7 +13,7 @@ import java.util.List;
 public enum StartMissionsMenu implements ApplicationMenu {
     INSTANCE;
     private static final Logger logger = LoggerFactory.getLogger(StartMissionsMenu.class);
-    MissionService missionService = MissionServiceImpl.INSTANCE;
+    private final MissionService missionService = MissionServiceImpl.INSTANCE;
 
     @Override
     public ApplicationContext getApplicationContext() {

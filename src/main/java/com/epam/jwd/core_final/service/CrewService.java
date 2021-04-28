@@ -1,7 +1,6 @@
 package com.epam.jwd.core_final.service;
 
 import com.epam.jwd.core_final.criteria.CrewMemberCriteria;
-import com.epam.jwd.core_final.criteria.Criteria;
 import com.epam.jwd.core_final.domain.CrewMember;
 import com.epam.jwd.core_final.exception.NotAbleToBeAssignedException;
 import com.epam.jwd.core_final.exception.NotAbleToBeCreatedException;

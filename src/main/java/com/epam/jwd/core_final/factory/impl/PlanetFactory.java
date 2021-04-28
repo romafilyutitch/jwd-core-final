@@ -5,8 +5,10 @@ import com.epam.jwd.core_final.factory.EntityFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class PlanetFactory implements EntityFactory<Planet> {
+public enum PlanetFactory implements EntityFactory<Planet> {
+    INSTANCE;
     private static final Logger logger = LoggerFactory.getLogger(PlanetFactory.class);
+
     @Override
     public Planet create(Object... args) {
         logger.trace("Creation of Planet objects");

@@ -29,14 +29,6 @@ public class CrewMember extends AbstractBaseEntity {
         return rank;
     }
 
-    public Boolean getReadyForNextMissions() {
-        return isReadyForNextMissions;
-    }
-
-    public Boolean getAssignedToFlightMission() {
-        return isAssignedToFlightMission;
-    }
-
     public void setRole(Role role) {
         this.role = role;
     }

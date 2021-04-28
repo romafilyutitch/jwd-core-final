@@ -8,8 +8,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 // do the same for other entities
-public class CrewMemberFactory implements EntityFactory<CrewMember> {
+public enum CrewMemberFactory implements EntityFactory<CrewMember> {
+    INSTANCE;
     private static final Logger logger = LoggerFactory.getLogger(CrewMemberFactory.class);
+
     @Override
     public CrewMember create(Object... args) {
         logger.trace("creation of CrewMember object");
@@ -18,7 +20,7 @@ public class CrewMemberFactory implements EntityFactory<CrewMember> {
         String name = String.valueOf(args[1]);
         Rank rank = Rank.resolveRankById(Integer.parseInt(String.valueOf(args[2])));
         logger.trace("creation of CrewMember object was completed");
-        return new CrewMember(name,role,rank);
+        return new CrewMember(name, role, rank);
     }
 
     private void checkArgsLength(Object... args) {

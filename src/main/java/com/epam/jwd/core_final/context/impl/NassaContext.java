@@ -12,13 +12,11 @@ import com.epam.jwd.core_final.factory.impl.CrewMemberFactory;
 import com.epam.jwd.core_final.factory.impl.PlanetFactory;
 import com.epam.jwd.core_final.factory.impl.SpaceshipFactory;
 import com.epam.jwd.core_final.service.CrewService;
-import com.epam.jwd.core_final.service.MissionService;
 import com.epam.jwd.core_final.service.SpacemapService;
 import com.epam.jwd.core_final.service.SpaceshipService;
 import com.epam.jwd.core_final.service.impl.CrewServiceImpl;
-import com.epam.jwd.core_final.service.impl.MissionServiceImpl;
-import com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl;
 import com.epam.jwd.core_final.service.impl.SpaceMapServiceImpl;
+import com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -36,54 +34,67 @@ public enum NassaContext implements ApplicationContext {
     private static final Logger logger = LoggerFactory.getLogger(NassaContext.class);
 
     // no getters/setters for them
-    private Collection<CrewMember> crewMembers = new ArrayList<>();
-    private Collection<Spaceship> spaceships = new ArrayList<>();
-    private Collection<Planet> planetMap = new ArrayList<>();
+    private final Collection<CrewMember> crewMembers = new ArrayList<>();
+    private final Collection<Spaceship> spaceships = new ArrayList<>();
+    private final Collection<Planet> planetMap = new ArrayList<>();
 
-    private CrewService crewService = CrewServiceImpl.INSTANCE;
-    private SpaceshipService spaceshipService = SpaceShipServiceImpl.INSTANCE;
-    private MissionService missionService = MissionServiceImpl.INSTANCE;
-    private SpacemapService spacemapService = SpaceMapServiceImpl.INSTANCE;
+    private final CrewService crewService = CrewServiceImpl.INSTANCE;
+    private final SpaceshipService spaceshipService = SpaceShipServiceImpl.INSTANCE;
+    private final SpacemapService spacemapService = SpaceMapServiceImpl.INSTANCE;
 
     @Override
     public <T extends BaseEntity> Collection<T> retrieveBaseEntityList(Class<T> tClass) {
         String name = tClass.getSimpleName();
         switch (name) {
-            case "CrewMember" : return (Collection<T>) crewMembers;
-            case "Spaceship" : return (Collection<T>) spaceships;
-            case "Planet" : return (Collection<T>) planetMap;
-            default: throw new IllegalArgumentException("There is no such entity list");
+            case "CrewMember":
+                return (Collection<T>) crewMembers;
+            case "Spaceship":
+                return (Collection<T>) spaceships;
+            case "Planet":
+                return (Collection<T>) planetMap;
+            default:
+                throw new IllegalArgumentException("There is no such entity list");
         }
     }
 
     /**
      * You have to read input files, populate collections
-     * @throws InvalidStateException
+     *
+     * @throws InvalidStateException when entities population went wrong
      */
     @Override
     public void init() throws InvalidStateException {
         logger.trace("Enter in init method");
         try {
-            populateCrewMembers();
-            populateSpaceShips();
-            populatePlanet();
+            populateEntities();
         } catch (IOException e) {
             logger.error(e.getMessage(), e);
             throw new InvalidStateException(e);
         }
         logger.info("population is completed");
         logger.info("creation of entities in storage");
+        createEntities();
+        logger.info("creation of entities is completed");
+        logger.trace("init is completed");
+    }
+
+    private void createEntities() {
         createCrewMembers();
         createSpaceships();
         createPlanets();
-        logger.info("creation of entities is completed");
-        logger.trace("init is completed");
+    }
+
+    private void populateEntities() throws IOException {
+        populateCrewMembers();
+        populateSpaceShips();
+        populatePlanet();
     }
 
     private void createPlanets() {
         for (Planet planet : planetMap) {
             try {
-                spacemapService.createPlanet(planet);
+                Planet createdPlanet = spacemapService.createPlanet(planet);
+                logger.info("Planet {} was created", createdPlanet);
             } catch (NotAbleToBeCreatedException e) {
                 logger.error(e.getMessage(), e);
             }
@@ -93,7 +104,8 @@ public enum NassaContext implements ApplicationContext {
     private void createCrewMembers() {
         for (CrewMember crewMember : crewMembers) {
             try {
-                crewService.createCrewMember(crewMember);
+                CrewMember createdCrewMember = crewService.createCrewMember(crewMember);
+                logger.info("Crew member {} was created ", createdCrewMember);
             } catch (NotAbleToBeCreatedException e) {
                 logger.error(e.getMessage(), e);
             }
@@ -103,7 +115,8 @@ public enum NassaContext implements ApplicationContext {
     private void createSpaceships() {
         for (Spaceship spaceship : spaceships) {
             try {
-                spaceshipService.createSpaceship(spaceship);
+                Spaceship createdSpaceship = spaceshipService.createSpaceship(spaceship);
+                logger.info("Spaceship {} was created", createdSpaceship);
             } catch (NotAbleToBeCreatedException e) {
                 logger.error(e.getMessage(), e);
             }
@@ -111,7 +124,7 @@ public enum NassaContext implements ApplicationContext {
     }
 
     private void populateCrewMembers() throws IOException {
-        CrewMemberFactory crewMemberFactory = new CrewMemberFactory();
+        CrewMemberFactory crewMemberFactory = CrewMemberFactory.INSTANCE;
         ApplicationProperties properties = ApplicationProperties.INSTANCE;
         String crewFilePath = properties.getInputRootDir() + File.separator + properties.getCrewFileName();
         try (BufferedReader reader = new BufferedReader(new FileReader(crewFilePath))) {
@@ -135,12 +148,12 @@ public enum NassaContext implements ApplicationContext {
     }
 
     private void populateSpaceShips() throws IOException {
-        SpaceshipFactory spaceshipFactory = new SpaceshipFactory();
+        SpaceshipFactory spaceshipFactory = SpaceshipFactory.INSTANCE;
         ApplicationProperties properties = ApplicationProperties.INSTANCE;
         String spaceshipsFileName = properties.getInputRootDir() + File.separator + properties.getSpaceshipsFileName();
         try (BufferedReader reader = new BufferedReader(new FileReader(spaceshipsFileName))) {
             String nextLine;
-            while((nextLine = reader.readLine()) != null) {
+            while ((nextLine = reader.readLine()) != null) {
                 if (nextLine.startsWith("#")) {
                     continue;
                 }
@@ -148,8 +161,8 @@ public enum NassaContext implements ApplicationContext {
                 String spaceName = splitSpaceshipInputData[0];
                 String distance = splitSpaceshipInputData[1];
                 String roleMap = splitSpaceshipInputData[2];
-                roleMap = roleMap.replace("{","");
-                roleMap = roleMap.replace("}","");
+                roleMap = roleMap.replace("{", "");
+                roleMap = roleMap.replace("}", "");
                 Spaceship createdInstance = spaceshipFactory.create(spaceName, distance, roleMap);
                 spaceships.add(createdInstance);
             }
@@ -157,7 +170,7 @@ public enum NassaContext implements ApplicationContext {
     }
 
     private void populatePlanet() throws IOException {
-        PlanetFactory planetFactory = new PlanetFactory();
+        PlanetFactory planetFactory = PlanetFactory.INSTANCE;
         ApplicationProperties properties = ApplicationProperties.INSTANCE;
         String planetFileName = properties.getInputRootDir() + File.separator + properties.getSpaceMapFileName();
         try (BufferedReader reader = new BufferedReader(new FileReader(planetFileName))) {

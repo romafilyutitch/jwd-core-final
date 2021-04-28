@@ -9,7 +9,6 @@ import com.epam.jwd.core_final.service.MissionService;
 import com.epam.jwd.core_final.service.SpacemapService;
 import com.epam.jwd.core_final.storage.AbstractBaseEntityStorage;
 import com.epam.jwd.core_final.storage.impl.SimpleAbstractBaseEntityStorage;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,7 +22,6 @@ public enum MissionServiceImpl implements MissionService {
     INSTANCE;
     private static final Logger logger = LoggerFactory.getLogger(MissionServiceImpl.class);
     private final AbstractBaseEntityStorage<FlightMission> storage = new SimpleAbstractBaseEntityStorage<>();
-    ObjectMapper objectMapper = new ObjectMapper().findAndRegisterModules();
 
     @Override
     public List<FlightMission> findAllMissions() {
@@ -63,6 +61,22 @@ public enum MissionServiceImpl implements MissionService {
 
     @Override
     public FlightMission startMission(FlightMission flightMission) throws NotAbleToBeStartedException {
+        checkForStart(flightMission);
+        SpacemapService spacemapService = SpaceMapServiceImpl.INSTANCE;
+        long distance = spacemapService.getDistanceBetweenPlanets(flightMission.getFrom(), flightMission.getTo());
+        logger.info("For flight mission {} was calculated distance : {}", flightMission.getMissionsName(), distance);
+        flightMission.setDistance(distance);
+        LocalDate startDate = calculateRandomStartDate();
+        flightMission.setStartDate(startDate);
+        LocalDate endDate = startDate.plusYears(distance);
+        flightMission.setEndDate(endDate);
+        logger.info("For flight mission {} was calculated end date: {}", flightMission.getMissionsName(), endDate);
+        flightMission.setMissionResult(MissionResult.IN_PROGRESS);
+        logger.info("Flight mission {} was started", flightMission.getMissionsName());
+        return flightMission;
+    }
+
+    private void checkForStart(FlightMission flightMission) throws NotAbleToBeStartedException {
         if (!isExistsInStorage(flightMission)) {
             logger.error("Flight mission {} is not in storage", flightMission.getMissionsName());
             throw new NotAbleToBeStartedException("Flight mission " + flightMission.getMissionsName() + " not in storage");
@@ -71,22 +85,14 @@ public enum MissionServiceImpl implements MissionService {
             logger.error("Flight mission {} hasn't assigned spaceship", flightMission.getMissionsName());
             throw new NotAbleToBeStartedException("Flight missions " + flightMission.getMissionsName() + " hasn't spaceship");
         }
+    }
+
+    private LocalDate calculateRandomStartDate() {
         Random random = new Random();
-        SpacemapService spacemapService = SpaceMapServiceImpl.INSTANCE;
-        long distance = spacemapService.getDistanceBetweenPlanets(flightMission.getFrom(), flightMission.getTo());
-        logger.info("For flight mission {} was calculated distance : {}", flightMission.getMissionsName(), distance);
-        flightMission.setDistance(distance);
         int year = random.nextInt(20) + 2000;
         int month = random.nextInt(12) + 1;
         int day = random.nextInt(28) + 1;
-        LocalDate startDate = LocalDate.of(year, month, day);
-        flightMission.setStartDate(startDate);
-        LocalDate endDate = startDate.plusYears(distance);
-        flightMission.setEndDate(endDate);
-        logger.info("For flight mission {} was calculated end date: {}", flightMission.getMissionsName(), endDate);
-        flightMission.setMissionResult(MissionResult.IN_PROGRESS);
-        logger.info("Flight mission {} was started", flightMission.getMissionsName());
-        return flightMission;
+        return LocalDate.of(year, month, day);
     }
 
     @Override

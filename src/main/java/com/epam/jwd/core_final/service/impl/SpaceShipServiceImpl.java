@@ -1,7 +1,6 @@
 package com.epam.jwd.core_final.service.impl;
 
 import com.epam.jwd.core_final.criteria.SpaceshipCriteria;
-import com.epam.jwd.core_final.domain.CrewMember;
 import com.epam.jwd.core_final.domain.FlightMission;
 import com.epam.jwd.core_final.domain.Spaceship;
 import com.epam.jwd.core_final.exception.NotAbleToBeAssignedException;
@@ -17,15 +16,14 @@ import org.slf4j.LoggerFactory;
 import java.util.List;
 import java.util.Optional;
 import java.util.Random;
-import java.util.Scanner;
 import java.util.stream.Collectors;
 
 public enum SpaceShipServiceImpl implements SpaceshipService {
     INSTANCE;
     private static final Logger logger = LoggerFactory.getLogger(SpaceShipServiceImpl.class);
     private final AbstractBaseEntityStorage<Spaceship> storage = new SimpleAbstractBaseEntityStorage<>();
-    private CrewService crewService = CrewServiceImpl.INSTANCE;
-    private MissionService missionService = MissionServiceImpl.INSTANCE;
+    private final CrewService crewService = CrewServiceImpl.INSTANCE;
+    private final MissionService missionService = MissionServiceImpl.INSTANCE;
 
     @Override
     public List<Spaceship> findAllSpaceships() {

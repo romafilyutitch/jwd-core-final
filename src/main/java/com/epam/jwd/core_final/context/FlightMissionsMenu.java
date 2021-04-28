@@ -2,9 +2,11 @@ package com.epam.jwd.core_final.context;
 
 import com.epam.jwd.core_final.context.impl.NassaContext;
 import com.epam.jwd.core_final.criteria.FlightMissionCriteria;
+import com.epam.jwd.core_final.criteria.SpaceshipCriteria;
 import com.epam.jwd.core_final.domain.FlightMission;
 import com.epam.jwd.core_final.domain.MissionResult;
 import com.epam.jwd.core_final.domain.Planet;
+import com.epam.jwd.core_final.domain.Spaceship;
 import com.epam.jwd.core_final.factory.EntityFactory;
 import com.epam.jwd.core_final.factory.impl.FlightMissionFactory;
 import com.epam.jwd.core_final.service.MissionService;
@@ -32,6 +34,7 @@ public enum FlightMissionsMenu implements ApplicationMenu {
         commands.add("back");
         commands.add("printAll");
         commands.add("printAllCriteria");
+        commands.add("printAllRandomCriteria");
         commands.add("printOneCriteria");
         commands.add("update");
     }
@@ -51,13 +54,25 @@ public enum FlightMissionsMenu implements ApplicationMenu {
 
     @Override
     public ApplicationMenu handleUserInput(String userInput) {
-        logger.trace("user input {} is being handled",userInput);
+        logger.trace("user input {} is being handled", userInput);
         switch (userInput) {
-            case "back" : return MainMenu.INSTANCE;
-            case "printAll" : printAllFlightMissions(); break;
-            case "printAllCriteria" : printAllFlightMissionsByCriteria(); break;
-            case "printOneCriteria" : printOneFlightMissionByCriteria(); break;
-            case "update" : update(); break;
+            case "back":
+                return MainMenu.INSTANCE;
+            case "printAll":
+                printAllFlightMissions();
+                break;
+            case "printAllCriteria":
+                printAllFlightMissionsByCriteria();
+                break;
+            case "printAllRandomCriteria":
+                printAllFlightMissionsByRandomCriteria();
+                break;
+            case "printOneCriteria":
+                printOneFlightMissionByCriteria();
+                break;
+            case "update":
+                update();
+                break;
             default:
                 System.out.println("There is no such command. Try again");
                 return this;
@@ -66,24 +81,33 @@ public enum FlightMissionsMenu implements ApplicationMenu {
         return MainMenu.INSTANCE;
     }
 
+    private void printAllFlightMissionsByRandomCriteria() {
+        FlightMissionCriteria randomCriteria = builder.setRandomFindCriteria().build();
+        builder = new FlightMissionCriteria.Builder();
+        List<FlightMission> allCrewMembersByCriteria = missionService.findAllMissionsByCriteria(randomCriteria);
+        System.out.println("All flight missions found by random criteria");
+        allCrewMembersByCriteria.forEach(System.out::println);
+    }
+
     private void update() {
         FlightMission flightMission = makeUpdateObject();
-        missionService.updateFlightMissionDetails(flightMission);
+        FlightMission updateFlightMission = missionService.updateFlightMissionDetails(flightMission);
+        System.out.println("Flight mission " + updateFlightMission.getMissionsName() + " was updated");
     }
 
     private FlightMission makeUpdateObject() {
         System.out.println("Unknown planet will be replaced random planet");
-        System.out.println("Enter name of mission's name to update");
+        System.out.print("Enter name of mission's name to update >>");
         String name = scanner.next();
-        System.out.println("Enter from planet name");
+        System.out.print("Enter from planet name >>");
         String fromPlanetName = scanner.next();
         Optional<Planet> planetFromOptional = NassaContext.INSTANCE.retrieveBaseEntityList(Planet.class).stream().filter(planet -> planet.getName().equals(fromPlanetName)).findAny();
         Planet fromPlanet = planetFromOptional.orElse(SpaceMapServiceImpl.INSTANCE.getRandomPlanet());
-        System.out.println("Enter to planet name");
+        System.out.print("Enter to planet name >>");
         String toPlanetName = scanner.next();
         Optional<Planet> planetToOptional = NassaContext.INSTANCE.retrieveBaseEntityList(Planet.class).stream().filter(planet -> planet.getName().equals(toPlanetName)).findAny();
         Planet toPlanet = planetToOptional.orElse(SpaceMapServiceImpl.INSTANCE.getRandomPlanet());
-        EntityFactory<FlightMission> flightMissionFactory = new FlightMissionFactory();
+        EntityFactory<FlightMission> flightMissionFactory = FlightMissionFactory.INSTANCE;
         return flightMissionFactory.create(name, fromPlanet, toPlanet);
     }
 
@@ -108,14 +132,30 @@ public enum FlightMissionsMenu implements ApplicationMenu {
         System.out.print("Enter one of criteria >>");
         String criteria = scanner.next();
         switch (criteria) {
-            case "idEquals" : idEquals(builder); break;
-            case "nameEquals" : nameEquals(builder); break;
-            case "missionsNameEquals" : missionsNameEquals(builder); break;
-            case "startDateEquals" : startDateEquals(builder); break;
-            case "endDateEquals" : endDateEquals(builder); break;
-            case "missionResultIs" : missionResultIs(builder); break;
-            case "toPlanetNameIs" : toPlanetNameIs(builder); break;
-            case "fromPlanetNameIs" : fromPlanetNameIs(builder); break;
+            case "idEquals":
+                idEquals(builder);
+                break;
+            case "nameEquals":
+                nameEquals(builder);
+                break;
+            case "missionsNameEquals":
+                missionsNameEquals(builder);
+                break;
+            case "startDateEquals":
+                startDateEquals(builder);
+                break;
+            case "endDateEquals":
+                endDateEquals(builder);
+                break;
+            case "missionResultIs":
+                missionResultIs(builder);
+                break;
+            case "toPlanetNameIs":
+                toPlanetNameIs(builder);
+                break;
+            case "fromPlanetNameIs":
+                fromPlanetNameIs(builder);
+                break;
             default:
                 System.out.println("There is no such criteria");
         }
@@ -165,9 +205,8 @@ public enum FlightMissionsMenu implements ApplicationMenu {
     }
 
     private void missionResultIs(FlightMissionCriteria.Builder builder) {
-        MissionResult[] results = MissionResult.values();
         System.out.println("List of mission results");
-        Arrays.stream(results).forEach(System.out::println);
+        Arrays.stream(MissionResult.values()).forEach(System.out::println);
         System.out.print("Enter mission result >>");
         String input = scanner.next();
         MissionResult result = MissionResult.valueOf(input);

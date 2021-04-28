@@ -1,11 +1,7 @@
 package com.epam.jwd.core_final.service.impl;
 
-import com.epam.jwd.core_final.context.ApplicationContext;
-import com.epam.jwd.core_final.context.impl.NassaContext;
-import com.epam.jwd.core_final.domain.CrewMember;
 import com.epam.jwd.core_final.domain.Planet;
 import com.epam.jwd.core_final.domain.Planet.Point;
-import com.epam.jwd.core_final.exception.InvalidStateException;
 import com.epam.jwd.core_final.exception.NotAbleToBeCreatedException;
 import com.epam.jwd.core_final.service.SpacemapService;
 import com.epam.jwd.core_final.storage.AbstractBaseEntityStorage;
@@ -13,8 +9,6 @@ import com.epam.jwd.core_final.storage.impl.SimpleAbstractBaseEntityStorage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
 import java.util.Random;
@@ -22,7 +16,6 @@ import java.util.Random;
 public enum SpaceMapServiceImpl implements SpacemapService {
     INSTANCE;
     private static final Logger logger = LoggerFactory.getLogger(SpaceMapServiceImpl.class);
-    ApplicationContext context = NassaContext.INSTANCE;
     private final AbstractBaseEntityStorage<Planet> storage = new SimpleAbstractBaseEntityStorage<>();
 
     @Override
@@ -59,23 +52,23 @@ public enum SpaceMapServiceImpl implements SpacemapService {
     public int getDistanceBetweenPlanets(Planet first, Planet second) {
         Point firstPlanetPoint = first.getLocation();
         Point secondPlanetPoint = second.getLocation();
-        int dx = firstPlanetPoint.getX() - secondPlanetPoint.getX();
-        int dy = firstPlanetPoint.getY() - secondPlanetPoint.getY();
+        int deltaX = firstPlanetPoint.getX() - secondPlanetPoint.getX();
+        int deltaY = firstPlanetPoint.getY() - secondPlanetPoint.getY();
         int firstX = firstPlanetPoint.getX();
         int firstY = firstPlanetPoint.getY();
         int secondX = secondPlanetPoint.getX();
         int secondY = secondPlanetPoint.getY();
         double distance = 0.0;
-        if (dx < 0 && dy > 0) {
+        if (deltaX < 0 && deltaY > 0) {
             distance = moveRightUp(firstX, firstY, secondX, secondY);
         }
-        if (dx < 0 && dy < 0) {
+        if (deltaX < 0 && deltaY < 0) {
             distance = moveRightDown(firstX, firstY, secondX, secondY);
         }
-        if (dx > 0 && dy > 0) {
+        if (deltaX > 0 && deltaY > 0) {
             distance = moveLeftUp(firstX, firstY, secondX, secondY);
         }
-        if (dx > 0 && dy < 0) {
+        if (deltaX > 0 && deltaY < 0) {
             distance = moveLeftDown(firstX, firstY, secondX, secondY);
         }
         return (int) distance;
@@ -89,8 +82,7 @@ public enum SpaceMapServiceImpl implements SpacemapService {
             if (result == 1) {
                 if (firstX == secondX) {
                     firstY -= 1;
-                } else
-                if (firstY == secondY) {
+                } else if (firstY == secondY) {
                     firstX += 1;
                 }
             }
@@ -111,8 +103,7 @@ public enum SpaceMapServiceImpl implements SpacemapService {
             if (result == 1) {
                 if (firstX == secondX) {
                     firstY += 1;
-                } else
-                if (firstY == secondY) {
+                } else if (firstY == secondY) {
                     firstX += 1;
                 }
             }
@@ -133,8 +124,7 @@ public enum SpaceMapServiceImpl implements SpacemapService {
             if (result == 1) {
                 if (firstX == secondX) {
                     firstY -= 1;
-                } else
-                if (firstY == secondY) {
+                } else if (firstY == secondY) {
                     firstX -= 1;
                 }
             }
@@ -155,8 +145,7 @@ public enum SpaceMapServiceImpl implements SpacemapService {
             if (result == 1) {
                 if (firstX == secondX) {
                     firstY += 1;
-                } else
-                if (firstY == secondY) {
+                } else if (firstY == secondY) {
                     firstX -= 1;
                 }
             }

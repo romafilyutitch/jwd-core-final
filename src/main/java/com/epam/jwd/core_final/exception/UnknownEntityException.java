@@ -11,16 +11,10 @@ public class UnknownEntityException extends RuntimeException {
         this.args = null;
     }
 
-    public UnknownEntityException(String entityName, Object[] args) {
-        super();
-        this.entityName = entityName;
-        this.args = args;
-    }
-
     @Override
     public String getMessage() {
         // todo
         // you should use entityName, args (if necessary)
-        return null;
+        return "Entity " + entityName + " is unknown entity";
     }
 }

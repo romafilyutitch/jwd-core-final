@@ -5,7 +5,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -14,8 +13,8 @@ import java.util.Scanner;
 public enum MainMenu implements ApplicationMenu {
     INSTANCE;
     private static final Logger logger = LoggerFactory.getLogger(MainMenu.class);
-    private List<String> availableOptions = new ArrayList<>();
-    private Map<String, ApplicationMenu> commandMenuMap = new LinkedHashMap<>();
+    private final List<String> availableOptions = new ArrayList<>();
+    private final Map<String, ApplicationMenu> commandMenuMap = new LinkedHashMap<>();
 
     MainMenu() {
         commandMenuMap.put("exit", null);

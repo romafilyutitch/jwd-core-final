@@ -10,7 +10,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class SpaceshipFactory implements EntityFactory<Spaceship> {
+public enum SpaceshipFactory implements EntityFactory<Spaceship> {
+    INSTANCE;
     private static final Logger logger = LoggerFactory.getLogger(SpaceshipFactory.class);
 
     @Override

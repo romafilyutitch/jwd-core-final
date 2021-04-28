@@ -1,7 +1,9 @@
 package com.epam.jwd.core_final.context;
 
 import com.epam.jwd.core_final.context.impl.NassaContext;
+import com.epam.jwd.core_final.criteria.CrewMemberCriteria;
 import com.epam.jwd.core_final.criteria.SpaceshipCriteria;
+import com.epam.jwd.core_final.domain.CrewMember;
 import com.epam.jwd.core_final.domain.Spaceship;
 import com.epam.jwd.core_final.factory.EntityFactory;
 import com.epam.jwd.core_final.factory.impl.SpaceshipFactory;
@@ -20,15 +22,17 @@ public enum SpaceshipsMenu implements ApplicationMenu {
     private final SpaceshipService spaceshipService = SpaceShipServiceImpl.INSTANCE;
     private final List<String> commands = new ArrayList<>();
     private final Scanner scanner = new Scanner(System.in);
-    private  SpaceshipCriteria.Builder builder = new SpaceshipCriteria.Builder();
+    private SpaceshipCriteria.Builder builder = new SpaceshipCriteria.Builder();
 
     SpaceshipsMenu() {
         commands.add("back");
         commands.add("printAll");
         commands.add("printAllCriteria");
+        commands.add("printAllCriteriaRandom");
         commands.add("printOneCriteria");
         commands.add("update");
     }
+
     @Override
     public ApplicationContext getApplicationContext() {
         return NassaContext.INSTANCE;
@@ -46,29 +50,51 @@ public enum SpaceshipsMenu implements ApplicationMenu {
     public ApplicationMenu handleUserInput(String userInput) {
         logger.trace("user input {} is being handled", userInput);
         switch (userInput) {
-            case "back" : return MainMenu.INSTANCE;
-            case "printAll" : printAllSpaceships(); break;
-            case "printAllCriteria" : printAllSpaceshipsByCriteria(); break;
-            case "printOneCriteria" :  printOneSpaceshipByCriteria(); break;
-            case "update" : update() ; break;
-            default: System.out.println("There is no such command. Try again");
-            return this;
+            case "back":
+                return MainMenu.INSTANCE;
+            case "printAll":
+                printAllSpaceships();
+                break;
+            case "printAllCriteria":
+                printAllSpaceshipsByCriteria();
+                break;
+            case "printAllCriteriaRandom":
+                printAllSpaceshipsByRandomCriteria();
+                break;
+            case "printOneCriteria":
+                printOneSpaceshipByCriteria();
+                break;
+            case "update":
+                update();
+                break;
+            default:
+                System.out.println("There is no such command. Try again");
+                return this;
         }
         logger.trace("user input {} was handled", userInput);
         return MainMenu.INSTANCE;
     }
 
+    private void printAllSpaceshipsByRandomCriteria() {
+        SpaceshipCriteria randomCriteria = builder.setRandomFindCriteria().build();
+        builder = new SpaceshipCriteria.Builder();
+        List<Spaceship> allCrewMembersByCriteria = spaceshipService.findAllSpaceshipsByCriteria(randomCriteria);
+        System.out.println("All spaceships found by random criteria");
+        allCrewMembersByCriteria.forEach(System.out::println);
+    }
+
     private void update() {
         Spaceship spaceship = makeUpdateObject();
-        spaceshipService.updateSpaceshipDetails(spaceship);
+        Spaceship updatedSpaceship = spaceshipService.updateSpaceshipDetails(spaceship);
+        System.out.println("Spaceship " + updatedSpaceship.getName() + " was updated");
     }
 
     private Spaceship makeUpdateObject() {
-        System.out.println("Enter name of spaceship to update");
+        System.out.print("Enter name of spaceship to update >>");
         String name = scanner.next();
-        System.out.println("Enter distance of spaceship to update");
+        System.out.print("Enter distance of spaceship to update >>");
         long distance = scanner.nextInt();
-        EntityFactory<Spaceship> factory = new SpaceshipFactory();
+        EntityFactory<Spaceship> factory = SpaceshipFactory.INSTANCE;
         return factory.create(name, distance, "");
     }
 
@@ -94,9 +120,15 @@ public enum SpaceshipsMenu implements ApplicationMenu {
         System.out.print("Enter one of criteria >>");
         String criteria = scanner.next();
         switch (criteria) {
-            case "nameEquals" : nameEquals(builder); break;
-            case "idEquals" : idEquals(builder); break;
-            case "flightDistanceEquals" : flightDistanceEquals(builder); break;
+            case "nameEquals":
+                nameEquals(builder);
+                break;
+            case "idEquals":
+                idEquals(builder);
+                break;
+            case "flightDistanceEquals":
+                flightDistanceEquals(builder);
+                break;
             default:
                 System.out.println("There is no such criteria");
         }
@@ -106,19 +138,19 @@ public enum SpaceshipsMenu implements ApplicationMenu {
     }
 
     private void nameEquals(SpaceshipCriteria.Builder builder) {
-        System.out.print("Enter name : ");
+        System.out.print("Enter name >>");
         String input = scanner.next();
         builder.nameEquals(input);
     }
 
     private void idEquals(SpaceshipCriteria.Builder builder) {
-        System.out.print("Enter id equals : ");
+        System.out.print("Enter id equals >>");
         long input = scanner.nextInt();
         builder.idEquals(input);
     }
 
     private void flightDistanceEquals(SpaceshipCriteria.Builder builder) {
-        System.out.println("Enter flight distance equals");
+        System.out.println("Enter flight distance equals >>");
         long input = scanner.nextInt();
         builder.flightDistanceEquals(input);
     }

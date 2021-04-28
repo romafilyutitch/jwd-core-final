@@ -3,7 +3,6 @@ package com.epam.jwd.core_final.criteria;
 import com.epam.jwd.core_final.domain.BaseEntity;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 /**

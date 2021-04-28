@@ -7,7 +7,7 @@ import java.util.Objects;
  * <p>
  * location could be a simple class Point with 2 coordinates
  */
-public class Planet extends AbstractBaseEntity{
+public class Planet extends AbstractBaseEntity {
     private final Point location;
 
     public Planet(String name, int locationX, int locationY) {
@@ -42,18 +42,13 @@ public class Planet extends AbstractBaseEntity{
                 '}';
     }
 
-    public class Point {
+    public static class Point {
         private final int x;
         private final int y;
 
         public Point(int x, int y) {
             this.x = x;
             this.y = y;
-        }
-
-        public Point(int coodinate) {
-            this.x = coodinate;
-            this.y = coodinate;
         }
 
         public int getX() {
@@ -69,7 +64,7 @@ public class Planet extends AbstractBaseEntity{
             if (this == obj) {
                 return true;
             }
-            if(obj == null || getClass() != obj.getClass()) {
+            if (obj == null || getClass() != obj.getClass()) {
                 return false;
             }
             Point other = (Point) obj;

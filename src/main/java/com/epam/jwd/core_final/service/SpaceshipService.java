@@ -1,6 +1,5 @@
 package com.epam.jwd.core_final.service;
 
-import com.epam.jwd.core_final.criteria.Criteria;
 import com.epam.jwd.core_final.criteria.SpaceshipCriteria;
 import com.epam.jwd.core_final.domain.Spaceship;
 import com.epam.jwd.core_final.exception.NotAbleToBeAssignedException;

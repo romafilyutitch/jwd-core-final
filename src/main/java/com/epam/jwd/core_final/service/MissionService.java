@@ -5,7 +5,6 @@ import com.epam.jwd.core_final.domain.FlightMission;
 import com.epam.jwd.core_final.exception.NotAbleToBeCreatedException;
 import com.epam.jwd.core_final.exception.NotAbleToBeStartedException;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.Optional;
 

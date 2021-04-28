@@ -14,9 +14,8 @@ import java.util.Scanner;
 public enum SimulateMissionsMenu implements ApplicationMenu {
     INSTANCE;
     private static final Logger logger = LoggerFactory.getLogger(SimulateMissionsMenu.class);
-
-    MissionService missionService = MissionServiceImpl.INSTANCE;
-    Scanner scanner = new Scanner(System.in);
+    private final MissionService missionService = MissionServiceImpl.INSTANCE;
+    private final Scanner scanner = new Scanner(System.in);
 
     @Override
     public ApplicationContext getApplicationContext() {

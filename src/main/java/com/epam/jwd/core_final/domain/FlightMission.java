@@ -93,10 +93,6 @@ public class FlightMission extends AbstractBaseEntity {
         this.distance = distance;
     }
 
-    public void setAssignedCrew(List<CrewMember> assignedCrew) {
-        this.assignedCrew = assignedCrew;
-    }
-
     public void setMissionResult(MissionResult missionResult) {
         if (missionResult == MissionResult.FAILED) {
             assignedSpaceShift.setReadyForNextMissions(false);
