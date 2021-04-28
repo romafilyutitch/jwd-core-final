@@ -47,6 +47,10 @@ public enum CreateMissionsMenu implements ApplicationMenu {
 
     @Override
     public ApplicationMenu handleUserInput(String userInput) {
+        if(!checkIfDigit(userInput)) {
+            System.out.println("Invalid number. Try again.");
+            return MainMenu.INSTANCE;
+        }
         logger.trace("User input {} is being handed", userInput);
         int amountOffFlightMissionsToCreate = Integer.parseInt(userInput);
         int amountOfCreatedFlightMissions = createAllFlightMissions(amountOffFlightMissionsToCreate);
@@ -55,6 +59,15 @@ public enum CreateMissionsMenu implements ApplicationMenu {
         System.out.println("Actual amount of created flight missions: " + amountOfCreatedFlightMissions);
         logger.trace("User input {} was handled", userInput);
         return MainMenu.INSTANCE;
+    }
+
+    private boolean checkIfDigit(String input) {
+        for (int i = 0; i < input.length(); i++) {
+            if (!Character.isDigit(input.charAt(i))) {
+                return false;
+            }
+        }
+        return true;
     }
 
     private void assignAllCrewMembers() {
