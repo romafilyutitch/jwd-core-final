@@ -3,14 +3,11 @@ package com.epam.jwd.core_final.storage.impl;
 import com.epam.jwd.core_final.domain.CrewMember;
 import com.epam.jwd.core_final.domain.Rank;
 import com.epam.jwd.core_final.domain.Role;
-import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class SimpleAbstractBaseEntityStorageTest {
 

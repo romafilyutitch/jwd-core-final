@@ -9,6 +9,7 @@ import com.epam.jwd.core_final.domain.Planet;
 import com.epam.jwd.core_final.factory.EntityFactory;
 import com.epam.jwd.core_final.factory.impl.FlightMissionFactory;
 import com.epam.jwd.core_final.service.MissionService;
+import com.epam.jwd.core_final.service.SpacemapService;
 import com.epam.jwd.core_final.service.impl.MissionServiceImpl;
 import com.epam.jwd.core_final.service.impl.SpaceMapServiceImpl;
 import org.slf4j.Logger;
@@ -25,6 +26,7 @@ public enum FlightMissionsMenu implements ApplicationMenu {
     INSTANCE;
     private static final Logger logger = LoggerFactory.getLogger(FlightMissionsMenu.class);
     private final MissionService missionService = MissionServiceImpl.INSTANCE;
+    private final SpacemapService spacemapService = SpaceMapServiceImpl.INSTANCE;
     private final List<String> commands = new ArrayList<>();
     private final Scanner scanner = new Scanner(System.in);
     private FlightMissionCriteria.Builder builder = new FlightMissionCriteria.Builder();
@@ -89,6 +91,7 @@ public enum FlightMissionsMenu implements ApplicationMenu {
             System.out.println("No flight missions was found");
         } else {
             allFlightMissionsByCriteria.forEach(System.out::println);
+            System.out.println(allFlightMissionsByCriteria.size() + " flight missions was found");
         }
     }
 
@@ -121,6 +124,7 @@ public enum FlightMissionsMenu implements ApplicationMenu {
             System.out.println("No flight missions was found");
         } else {
             allMissions.forEach(System.out::println);
+            System.out.println(allMissions.size() + " flight missions was found");
         }
     }
 
@@ -130,6 +134,7 @@ public enum FlightMissionsMenu implements ApplicationMenu {
             System.out.println("No flight missions was found");
         } else {
             allFlightMissionsByCriteria.forEach(System.out::println);
+            System.out.println(allFlightMissionsByCriteria.size() + " flight missions was found");
         }
     }
 
@@ -170,7 +175,7 @@ public enum FlightMissionsMenu implements ApplicationMenu {
                 fromPlanetNameIs(builder);
                 break;
             default:
-                System.out.println("There is no such criteria");
+                System.out.println("There is no such criteria. Result without criteria will be printed");
         }
         FlightMissionCriteria criteriaResult = builder.build();
         builder = new FlightMissionCriteria.Builder();
@@ -185,8 +190,12 @@ public enum FlightMissionsMenu implements ApplicationMenu {
 
     private void idEquals(FlightMissionCriteria.Builder builder) {
         System.out.print("Enter id equals >>");
-        long input = scanner.nextInt();
-        builder.idEquals(input);
+        if (scanner.hasNextInt()) {
+            long input = scanner.nextInt();
+            builder.idEquals(input);
+        } else {
+            System.out.println("Invalid id input. Result without criteria will be printed");
+        }
     }
 
     private void nameEquals(FlightMissionCriteria.Builder builder) {
@@ -196,25 +205,57 @@ public enum FlightMissionsMenu implements ApplicationMenu {
     }
 
     private void startDateEquals(FlightMissionCriteria.Builder builder) {
-        System.out.print("Enter start year >> ");
-        int year = scanner.nextInt();
-        System.out.print("Enter start month >> ");
-        int month = scanner.nextInt();
-        System.out.print("Enter start day >> ");
-        int day = scanner.nextInt();
-        LocalDate date = LocalDate.of(year, month, day);
-        builder.startDateEquals(date);
+        System.out.print("Enter start date (yyyy-mm-dd) >>");
+        String[] startDateSplit = scanner.useDelimiter("\n").next().split("-");
+        if (startDateSplit.length != 3) {
+            System.out.println("Invalid start date input. Result without criteria will be printed");
+            return;
+        }
+        if (checkIfNumbers(startDateSplit)) {
+            int year = Integer.parseInt(startDateSplit[0]);
+            int month = Integer.parseInt(startDateSplit[1]);
+            int day = Integer.parseInt(startDateSplit[2]);
+            LocalDate date = LocalDate.of(year, month, day);
+            builder.startDateEquals(date);
+        } else {
+            System.out.println("Invalid start date input. Result without criteria will be printed");
+        }
     }
 
     private void endDateEquals(FlightMissionCriteria.Builder builder) {
-        System.out.print("Enter end year >>");
-        int year = scanner.nextInt();
-        System.out.print("Enter end month >>");
-        int month = scanner.nextInt();
-        System.out.print("Enter end day >>");
-        int day = scanner.nextInt();
-        LocalDate date = LocalDate.of(year, month, day);
-        builder.endDateEquals(date);
+        System.out.print("Enter end date (yyyy-mm-dd) >>");
+        String[] endDateSplit = scanner.useDelimiter("\n").next().split("-");
+        if (endDateSplit.length != 3) {
+            System.out.println("Invalid end date input. Result without criteria will be printed");
+            return;
+        }
+        if (checkIfNumbers(endDateSplit)) {
+            int year = Integer.parseInt(endDateSplit[0]);
+            int month = Integer.parseInt(endDateSplit[1]);
+            int day = Integer.parseInt(endDateSplit[2]);
+            LocalDate endDate = LocalDate.of(year, month, day);
+            builder.endDateEquals(endDate);
+        } else {
+            System.out.println("Invalid end date input. Result without criteria will be printed");
+        }
+    }
+
+    private boolean checkIfNumbers(String[] checkedNumbers) {
+        for (String checkedNumber : checkedNumbers) {
+            if (!checkIfNumber(checkedNumber)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private boolean checkIfNumber(String number) {
+        for (int i = 0; i < number.length(); i++) {
+            if (!Character.isDigit(number.charAt(i))) {
+                return false;
+            }
+        }
+        return true;
     }
 
     private void missionResultIs(FlightMissionCriteria.Builder builder) {
@@ -222,20 +263,40 @@ public enum FlightMissionsMenu implements ApplicationMenu {
         Arrays.stream(MissionResult.values()).forEach(System.out::println);
         System.out.print("Enter mission result >>");
         String input = scanner.next();
-        MissionResult result = MissionResult.valueOf(input);
-        builder.missionResultIs(result);
+        if (checkIfMissionResultExists(input)) {
+            MissionResult result = MissionResult.valueOf(input);
+            builder.missionResultIs(result);
+        } else {
+            System.out.println("Invalid mission result input. Result without criteria will be printed");
+        }
+    }
+
+    private boolean checkIfMissionResultExists(String input) {
+        return Arrays.stream(MissionResult.values()).anyMatch(missionResult -> missionResult.name().equals(input));
     }
 
     private void toPlanetNameIs(FlightMissionCriteria.Builder builder) {
         System.out.print("Enter to Planet name >>");
         String input = scanner.next();
-        builder.toPlanetNameIs(input);
+        if (checkIfPlanetExists(input)) {
+            builder.toPlanetNameIs(input);
+        } else {
+            System.out.println("There is no such planet. Result without criteria will be printed");
+        }
     }
 
     private void fromPlanetNameIs(FlightMissionCriteria.Builder builder) {
         System.out.print("Enter from planet name >>");
         String input = scanner.next();
-        builder.fromPlanetNameIs(input);
+        if (checkIfPlanetExists(input)) {
+            builder.fromPlanetNameIs(input);
+        } else {
+            System.out.println("There is no such planet. Result without criteria will be printed");
+        }
+    }
+
+    private boolean checkIfPlanetExists(String input) {
+        return spacemapService.getAllPlanets().stream().anyMatch(planet -> planet.getName().equals(input));
     }
 
 }

@@ -26,7 +26,7 @@ class SpaceMapServiceImplTest {
     }
 
     @Test
-    void testFindAllPlanets_ShouldReturnAllPlanets() throws NotAbleToBeCreatedException {
+    void findAllPlanets_ShouldReturnAllPlanets() throws NotAbleToBeCreatedException {
         List<Planet> planets = new ArrayList<>();
         Planet first = new Planet("First", 1, 2);
         Planet second = new Planet("Second", 3, 1);
@@ -39,5 +39,44 @@ class SpaceMapServiceImplTest {
         given(storage.getAll()).willReturn(planets);
         List<Planet> allCrewMembers = service.getAllPlanets();
         Assertions.assertEquals(planets, allCrewMembers);
+    }
+
+    @Test
+    public void findAllPlanets_willReturnEmptyList() {
+        List<Planet> allPlanets = service.getAllPlanets();
+
+        Assertions.assertTrue(allPlanets.isEmpty());
+    }
+
+    @Test
+    public void getRandomPlanet_willReturnRandomPlanet() throws NotAbleToBeCreatedException {
+        Planet testPlanet = new Planet("Random planet", 1, 1);
+        service.createPlanet(testPlanet);
+        Planet randomPlanet = service.getRandomPlanet();
+
+        Assertions.assertNotNull(randomPlanet);
+        Assertions.assertEquals(testPlanet, randomPlanet);
+
+        service.getAllPlanets().clear();
+    }
+
+    @Test
+    public void createPlanet_willSavePlanetAssignIdToPlanet() throws NotAbleToBeCreatedException {
+        Planet testPlanet = new Planet("Random planet", 1, 1);
+        service.createPlanet(testPlanet);
+
+        Assertions.assertNotNull(testPlanet.getId());
+
+        service.getAllPlanets().clear();
+    }
+
+    @Test
+    public void createPlanet_willThrowException_whenPlanetIsAlreadyInStorage() throws NotAbleToBeCreatedException {
+        Planet testPlanet = new Planet("Random planet", 1, 1);
+        service.createPlanet(testPlanet);
+
+        Assertions.assertThrows(NotAbleToBeCreatedException.class, () -> service.createPlanet(testPlanet));
+
+        service.getAllPlanets().clear();
     }
 }

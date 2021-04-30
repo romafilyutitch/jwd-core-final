@@ -31,7 +31,7 @@ public enum SimulateMissionsMenu implements ApplicationMenu {
 
     @Override
     public ApplicationMenu handleUserInput(String userInput) {
-        if(!checkIfDigit(userInput)) {
+        if(!checkIfNumber(userInput)) {
             System.out.println("Invalid number. Try again.");
             return MainMenu.INSTANCE;
         }
@@ -47,13 +47,15 @@ public enum SimulateMissionsMenu implements ApplicationMenu {
             MissionResult endOfSimulationResult = missionService.simulate(mission, years).getMissionResult();
             if (startOfSimulationResult == MissionResult.IN_PROGRESS && endOfSimulationResult == MissionResult.COMPLETED) {
                 System.out.println("mission " + mission.getMissionsName() + " has reached destination planet ");
+            } else if (startOfSimulationResult == MissionResult.IN_PROGRESS && endOfSimulationResult == MissionResult.FAILED) {
+                System.out.println("mission " + mission.getMissionsName() + "has faild");
             }
         });
         logger.trace("user input {} was handled", userInput);
         return MainMenu.INSTANCE;
     }
 
-    private boolean checkIfDigit(String input) {
+    private boolean checkIfNumber(String input) {
         for (int i = 0; i < input.length(); i++) {
             if (!Character.isDigit(input.charAt(i))) {
                 return false;

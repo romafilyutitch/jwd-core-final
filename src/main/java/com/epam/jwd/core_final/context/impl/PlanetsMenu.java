@@ -42,7 +42,7 @@ public enum PlanetsMenu implements ApplicationMenu {
         if (userInput.equals("printAll")) {
             printAllPlanets();
         } else {
-            System.out.println("There is no such planet in storage. Try again");
+            System.out.println("There is no such command. Try again");
             return this;
         }
         logger.trace("user input {} was handled", userInput);
@@ -55,6 +55,7 @@ public enum PlanetsMenu implements ApplicationMenu {
             System.out.println("No planets was found");
         } else {
             planets.forEach(System.out::println);
+            System.out.println(planets.size() + " planets was found");
         }
     }
 }

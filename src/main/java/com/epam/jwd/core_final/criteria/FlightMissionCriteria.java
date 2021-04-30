@@ -33,13 +33,15 @@ public class FlightMissionCriteria extends Criteria<FlightMission> {
     @Override
     public String toString() {
         return "FlightMissionCriteria{" +
-                "missionsNameEquals='" + missionsNameEquals + '\'' +
+                "idEquals = " + idEquals +
+                ", nameEquals = " + nameEquals +
+                ", missionsNameEquals='" + missionsNameEquals + '\'' +
                 ", startDateEquals=" + startDateEquals +
                 ", endDateEquals=" + endDateEquals +
                 ", missionResultIs=" + missionResultIs +
                 ", toPlanetNameIs='" + toPlanetNameIs + '\'' +
                 ", fromPlanetNameIs='" + fromPlanetNameIs + '\'' +
-                "} " + super.toString();
+                "} ";
     }
 
     @Override

@@ -31,8 +31,10 @@ public class SpaceshipCriteria extends Criteria<Spaceship> {
     @Override
     public String toString() {
         return "SpaceshipCriteria{" +
-                "flightDistanceEquals=" + flightDistanceEquals +
-                "} " + super.toString();
+                "idEquals = " + idEquals +
+                ", nameEquals = " + nameEquals +
+                ", flightDistanceEquals=" + flightDistanceEquals +
+                "} ";
     }
 
     public static class Builder {

@@ -77,12 +77,13 @@ public enum SpaceshipsMenu implements ApplicationMenu {
     private void printAllSpaceshipsByRandomCriteria() {
         SpaceshipCriteria randomCriteria = builder.setRandomFindCriteria().build();
         builder = new SpaceshipCriteria.Builder();
-        List<Spaceship> allCrewMembersByCriteria = spaceshipService.findAllSpaceshipsByCriteria(randomCriteria);
+        List<Spaceship> allSpaceshipsByCriteria = spaceshipService.findAllSpaceshipsByCriteria(randomCriteria);
         System.out.println("All spaceships found by random criteria " + randomCriteria);
-        if (allCrewMembersByCriteria.isEmpty()) {
+        if (allSpaceshipsByCriteria.isEmpty()) {
             System.out.println("No spaceships was found");
         } else {
-            allCrewMembersByCriteria.forEach(System.out::println);
+            allSpaceshipsByCriteria.forEach(System.out::println);
+            System.out.println(allSpaceshipsByCriteria.size() + " spaceships was found");
         }
     }
 
@@ -94,7 +95,7 @@ public enum SpaceshipsMenu implements ApplicationMenu {
 
     private Spaceship makeUpdateObject() {
         System.out.print("Enter name of spaceship to update >>");
-        String name = scanner.next();
+        String name = scanner.useDelimiter("\n").next();
         System.out.print("Enter distance of spaceship to update >>");
         long distance = scanner.nextInt();
         EntityFactory<Spaceship> factory = SpaceshipFactory.INSTANCE;
@@ -104,14 +105,16 @@ public enum SpaceshipsMenu implements ApplicationMenu {
     private void printAllSpaceships() {
         System.out.println("All spaceships");
         spaceshipService.findAllSpaceships().forEach(System.out::println);
+        System.out.println(spaceshipService.findAllSpaceships().size() + " spaceships was found");
     }
 
     private void printAllSpaceshipsByCriteria() {
         List<Spaceship> allSpaceshipsByCriteria = getAllSpaceshipsByCriteria();
-        if(allSpaceshipsByCriteria.isEmpty()) {
+        if (allSpaceshipsByCriteria.isEmpty()) {
             System.out.println("No spaceships was found");
         } else {
             allSpaceshipsByCriteria.forEach(System.out::println);
+            System.out.println(allSpaceshipsByCriteria.size() + " spaceships was found");
         }
     }
 
@@ -138,7 +141,7 @@ public enum SpaceshipsMenu implements ApplicationMenu {
                 flightDistanceEquals(builder);
                 break;
             default:
-                System.out.println("There is no such criteria");
+                System.out.println("There is no such criteria. Result without criteria will be printed");
         }
         SpaceshipCriteria criteriaResult = builder.build();
         builder = new SpaceshipCriteria.Builder();
@@ -153,13 +156,21 @@ public enum SpaceshipsMenu implements ApplicationMenu {
 
     private void idEquals(SpaceshipCriteria.Builder builder) {
         System.out.print("Enter id equals >>");
-        long input = scanner.nextInt();
-        builder.idEquals(input);
+        if (scanner.hasNextInt()) {
+            long input = scanner.nextInt();
+            builder.idEquals(input);
+        } else {
+            System.out.println("Invalid id input. Result without criteria will be printed");
+        }
     }
 
     private void flightDistanceEquals(SpaceshipCriteria.Builder builder) {
-        System.out.println("Enter flight distance equals >>");
-        long input = scanner.nextInt();
-        builder.flightDistanceEquals(input);
+        System.out.print("Enter flight distance equals >>");
+        if (scanner.hasNextInt()) {
+            long input = scanner.nextInt();
+            builder.flightDistanceEquals(input);
+        } else {
+            System.out.println("Invalid flight distance input. Result without criteria will be printed");
+        }
     }
 }

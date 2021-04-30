@@ -47,7 +47,7 @@ public enum CreateMissionsMenu implements ApplicationMenu {
 
     @Override
     public ApplicationMenu handleUserInput(String userInput) {
-        if(!checkIfDigit(userInput)) {
+        if(!checkIfNumber(userInput)) {
             System.out.println("Invalid number. Try again.");
             return MainMenu.INSTANCE;
         }
@@ -61,7 +61,7 @@ public enum CreateMissionsMenu implements ApplicationMenu {
         return MainMenu.INSTANCE;
     }
 
-    private boolean checkIfDigit(String input) {
+    private boolean checkIfNumber(String input) {
         for (int i = 0; i < input.length(); i++) {
             if (!Character.isDigit(input.charAt(i))) {
                 return false;

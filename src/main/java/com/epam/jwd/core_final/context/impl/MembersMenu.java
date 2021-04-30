@@ -86,6 +86,7 @@ public enum MembersMenu implements ApplicationMenu {
             System.out.println("No crew members was found");
         } else {
             allCrewMembersByCriteria.forEach(System.out::println);
+            System.out.println(allCrewMembersByCriteria.size() + " crew members was found");
         }
     }
 
@@ -99,10 +100,10 @@ public enum MembersMenu implements ApplicationMenu {
         System.out.print("Enter name of crew member to update >>");
         String name = scanner.useDelimiter("\n").next();
         printRoles();
-        System.out.print("Enter new role of crew member >>");
+        System.out.print("Enter new role number of crew member >>");
         String roleName = scanner.next();
         printRanks();
-        System.out.print("Enter new rank of crew member >>");
+        System.out.print("Enter new rank number of crew member >>");
         String rankName = scanner.next();
         EntityFactory<CrewMember> factory = CrewMemberFactory.INSTANCE;
         return factory.create(roleName, name, rankName);
@@ -119,6 +120,7 @@ public enum MembersMenu implements ApplicationMenu {
     private void printAllCrewMembers() {
         System.out.println("All crew members ");
         crewService.findAllCrewMembers().forEach(System.out::println);
+        System.out.println(crewService.findAllCrewMembers().size() + " crew members was found");
     }
 
     private void printAllCrewMembersByCriteria() {
@@ -127,6 +129,7 @@ public enum MembersMenu implements ApplicationMenu {
             System.out.println("No crew members was found");
         } else {
             allCrewMembersByCriteria.forEach(System.out::println);
+            System.out.println(allCrewMembersByCriteria.size() + " crew members was found");
         }
     }
 
@@ -156,7 +159,7 @@ public enum MembersMenu implements ApplicationMenu {
                 rankIs(builder);
                 break;
             default:
-                System.out.println("There is no such criteria");
+                System.out.println("There is no such criteria. Result without criteria will be printed");
         }
         CrewMemberCriteria criteriaResult = builder.build();
         builder = new CrewMemberCriteria.Builder();
@@ -171,21 +174,41 @@ public enum MembersMenu implements ApplicationMenu {
 
     private void idEquals(CrewMemberCriteria.Builder builder) {
         System.out.print("Enter id equals >>");
-        long input = scanner.nextInt();
-        builder.idEquals(input);
+        if (scanner.hasNextInt()) {
+            long input = scanner.nextInt();
+            builder.idEquals(input);
+        } else {
+            System.out.println("Invalid id input. Result without criteria will be printed");
+        }
     }
 
     private void roleIs(CrewMemberCriteria.Builder builder) {
         printRoles();
         System.out.print("Enter role is >>");
         String input = scanner.next();
-        builder.roleIs(Role.valueOf(input));
+        if (checkIfRoleExits(input)) {
+            builder.roleIs(Role.valueOf(input));
+        } else {
+            System.out.println("Invalid role input. Result without criteria will be printed");
+        }
     }
 
     private void rankIs(CrewMemberCriteria.Builder builder) {
         printRanks();
         System.out.print("Enter rank is >>");
         String input = scanner.next();
-        builder.rankIs(Rank.valueOf(input));
+        if (checkIfRankExists(input)) {
+            builder.rankIs(Rank.valueOf(input));
+        } else {
+            System.out.println("Invalid rank input. Result without criteria will be printed");
+        }
+    }
+
+    private boolean checkIfRoleExits(String input) {
+        return Arrays.stream(Role.values()).anyMatch(role -> role.getName().equals(input));
+    }
+
+    private boolean checkIfRankExists(String input) {
+        return Arrays.stream(Rank.values()).anyMatch(rank -> rank.getName().equals(input));
     }
 }
