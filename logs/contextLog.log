@@ -16197,3 +16197,494 @@ com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew m
 2021-04-30 22:27:05 INFO  SaveMissionsMenu - all missions was saved
 2021-04-30 22:27:05 TRACE SaveMissionsMenu - saving was completed
 2021-04-30 22:27:08 TRACE MainMenu - user input exit is being handled
+2021-04-30 22:45:46 TRACE NassaContext - Enter in init method
+2021-04-30 22:45:47 INFO  NassaContext - population is completed
+2021-04-30 22:45:47 INFO  NassaContext - creation of entities in storage
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=0, name = Davey Bentley, role=COMMANDER, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=1, name = Zoe Day, role=MISSION_SPECIALIST, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=2, name = Petra Potter, role=PILOT, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=3, name = Hafsa Harding, role=PILOT, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=4, name = Frazer Carr, role=FLIGHT_ENGINEER, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=5, name = Reya Handley, role=PILOT, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=6, name = Isabelle Person, role=MISSION_SPECIALIST, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=7, name = Sara Barnes, role=COMMANDER, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=8, name = Bilaal Reid, role=PILOT, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=9, name = Ariel Crowther, role=PILOT, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=10, name = Malachi Cardenas, role=PILOT, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=11, name = Marta Hendrix, role=FLIGHT_ENGINEER, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=12, name = Adele Mckeown, role=COMMANDER, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=13, name = Kayleigh Sellers, role=FLIGHT_ENGINEER, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=14, name = Azra Hastings, role=MISSION_SPECIALIST, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=15, name = Cerys Mcdonnell, role=FLIGHT_ENGINEER, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=16, name = Aronas Paul, role=MISSION_SPECIALIST, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=17, name = Alanah Stanton, role=MISSION_SPECIALIST, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=18, name = Darien Blanchard, role=COMMANDER, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=19, name = Kaden Mccormick, role=PILOT, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=20, name = Cobie Coles, role=MISSION_SPECIALIST, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=21, name = Talia Mcnamara, role=FLIGHT_ENGINEER, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=22, name = Fabio Smart, role=COMMANDER, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=23, name = Momina Tyler, role=COMMANDER, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=24, name = Melisa Villalobos, role=MISSION_SPECIALIST, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=25, name = Nikhil Mullins, role=COMMANDER, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=26, name = Ahsan Carey, role=PILOT, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=27, name = Judah Bray, role=PILOT, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=28, name = Kaja Rogers, role=FLIGHT_ENGINEER, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=29, name = Malcolm Thornton, role=PILOT, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=30, name = Annabella Lambert, role=FLIGHT_ENGINEER, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=31, name = Mariana Lu, role=PILOT, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=32, name = Asiyah Haines, role=FLIGHT_ENGINEER, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=33, name = Magdalena Mckinney, role=PILOT, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=34, name = Kiran Burns, role=MISSION_SPECIALIST, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=35, name = Neave Mustafa, role=FLIGHT_ENGINEER, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=36, name = Alistair Duncan, role=COMMANDER, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=37, name = Alfie Sosa, role=FLIGHT_ENGINEER, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=38, name = Beatrix Mcdonald, role=MISSION_SPECIALIST, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=39, name = Karan Avalos, role=MISSION_SPECIALIST, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=40, name = Alena Barr, role=PILOT, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=41, name = Anas Mcfarlane, role=COMMANDER, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=42, name = Eoghan Broadhurst, role=COMMANDER, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=43, name = Chaim Dolan, role=COMMANDER, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=44, name = Huzaifa Vu, role=COMMANDER, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=45, name = Marian Jaramillo, role=PILOT, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=46, name = Elisabeth Gross, role=FLIGHT_ENGINEER, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=47, name = Opal Webster, role=PILOT, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=48, name = Jordana Parker, role=PILOT, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=49, name = Cynthia Briggs, role=COMMANDER, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=50, name = Ida Calvert, role=COMMANDER, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=51, name = Stefania Redmond, role=MISSION_SPECIALIST, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=52, name = Riaz Hunter, role=COMMANDER, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=53, name = Ed Thatcher, role=FLIGHT_ENGINEER, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=54, name = Rowan Valenzuela, role=COMMANDER, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=55, name = Nazifa Jordan, role=PILOT, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=56, name = Jozef Braun, role=MISSION_SPECIALIST, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=57, name = Nyle Sanders, role=FLIGHT_ENGINEER, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=58, name = Krisha Nairn, role=COMMANDER, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=59, name = Nusaybah Buck, role=FLIGHT_ENGINEER, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=60, name = Haleema Wills, role=FLIGHT_ENGINEER, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=61, name = Faraz Truong, role=COMMANDER, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=62, name = Viktor Houghton, role=PILOT, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=63, name = Efa Obrien, role=PILOT, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=64, name = Martyna Hale, role=PILOT, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=65, name = Emelie Shepard, role=MISSION_SPECIALIST, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=66, name = Om Currie, role=FLIGHT_ENGINEER, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=67, name = Tj Guthrie, role=MISSION_SPECIALIST, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=68, name = Harlee Mata, role=FLIGHT_ENGINEER, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=69, name = Jesse Thomson, role=PILOT, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=70, name = Primrose Tierney, role=MISSION_SPECIALIST, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=71, name = Eesha Cuevas, role=MISSION_SPECIALIST, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=72, name = Akeel Levine, role=FLIGHT_ENGINEER, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=73, name = Liyah Novak, role=MISSION_SPECIALIST, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=74, name = Nieve Oconnor, role=COMMANDER, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=75, name = Hanan Bowman, role=PILOT, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=76, name = Walid Contreras, role=MISSION_SPECIALIST, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=77, name = Maximus Brandt, role=PILOT, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=78, name = Ellie-Louise Burt, role=MISSION_SPECIALIST, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=79, name = Maisy Perez, role=PILOT, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=80, name = Aiza Derrick, role=COMMANDER, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=81, name = Kason Forster, role=COMMANDER, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=82, name = Marwa Camacho, role=PILOT, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=83, name = Lemar Gray, role=MISSION_SPECIALIST, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=84, name = Carwyn Simmons, role=FLIGHT_ENGINEER, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=85, name = Kirstie Kaufman, role=COMMANDER, rank=FIRST_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=86, name = Dani Sykes, role=MISSION_SPECIALIST, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=87, name = Jermaine Hester, role=MISSION_SPECIALIST, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=88, name = Augustus Moss, role=PILOT, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=89, name = Kenzie Magana, role=COMMANDER, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=90, name = Zunaira Adams, role=FLIGHT_ENGINEER, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=91, name = Heather Clarke, role=PILOT, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=92, name = Serenity Gamble, role=PILOT, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=93, name = Manal Dennis, role=COMMANDER, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=94, name = Ravi Gibbons, role=COMMANDER, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=95, name = Matthew Sheehan, role=COMMANDER, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=96, name = Sally Gonzales, role=FLIGHT_ENGINEER, rank=CAPTAIN, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=97, name = Jordyn Henson, role=MISSION_SPECIALIST, rank=SECOND_OFFICER, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=98, name = Britney Dunn, role=FLIGHT_ENGINEER, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Crew member CrewMember{id=99, name = Shayan Mclellan, role=COMMANDER, rank=TRAINEE, isReadyForNextMissions=true, isAssignedToFlightMission=false} was created 
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=0, name=Challenger, crew={PILOT=3, MISSION_SPECIALIST=5, FLIGHT_ENGINEER=9, COMMANDER=3}, flightDistance=201117, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=1, name=Intelligence, crew={PILOT=4, MISSION_SPECIALIST=7, FLIGHT_ENGINEER=8, COMMANDER=1}, flightDistance=758717, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=2, name=Philadelphia, crew={PILOT=4, MISSION_SPECIALIST=4, FLIGHT_ENGINEER=8, COMMANDER=2}, flightDistance=4870, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=3, name=Sparta, crew={PILOT=2, MISSION_SPECIALIST=7, FLIGHT_ENGINEER=7, COMMANDER=1}, flightDistance=754471, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=4, name=Guardian, crew={PILOT=2, MISSION_SPECIALIST=8, FLIGHT_ENGINEER=9, COMMANDER=1}, flightDistance=910740, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=5, name=CS Adder, crew={PILOT=2, MISSION_SPECIALIST=9, FLIGHT_ENGINEER=7, COMMANDER=2}, flightDistance=472285, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=6, name=LWSS Ural, crew={PILOT=4, MISSION_SPECIALIST=5, FLIGHT_ENGINEER=7, COMMANDER=1}, flightDistance=107011, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=7, name=SS Escorial, crew={PILOT=3, MISSION_SPECIALIST=4, FLIGHT_ENGINEER=8, COMMANDER=2}, flightDistance=287032, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=8, name=HMS Royal, crew={PILOT=2, MISSION_SPECIALIST=6, FLIGHT_ENGINEER=9, COMMANDER=2}, flightDistance=449967, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=9, name=HMS Nightfal, crew={PILOT=3, MISSION_SPECIALIST=4, FLIGHT_ENGINEER=6, COMMANDER=2}, flightDistance=826146, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=10, name=Wolf, crew={PILOT=4, MISSION_SPECIALIST=9, FLIGHT_ENGINEER=9, COMMANDER=2}, flightDistance=739151, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=11, name=Providence, crew={PILOT=4, MISSION_SPECIALIST=5, FLIGHT_ENGINEER=5, COMMANDER=3}, flightDistance=160265, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=12, name=Spider, crew={PILOT=2, MISSION_SPECIALIST=8, FLIGHT_ENGINEER=5, COMMANDER=2}, flightDistance=568205, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=13, name=Invincible, crew={PILOT=4, MISSION_SPECIALIST=7, FLIGHT_ENGINEER=5, COMMANDER=1}, flightDistance=375415, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=14, name=Wolf, crew={PILOT=2, MISSION_SPECIALIST=5, FLIGHT_ENGINEER=6, COMMANDER=3}, flightDistance=923804, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=15, name=STS Angel, crew={PILOT=3, MISSION_SPECIALIST=8, FLIGHT_ENGINEER=5, COMMANDER=1}, flightDistance=749611, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=16, name=HMS Twilight, crew={PILOT=4, MISSION_SPECIALIST=6, FLIGHT_ENGINEER=5, COMMANDER=3}, flightDistance=204263, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=17, name=ISS Diplomat, crew={PILOT=3, MISSION_SPECIALIST=5, FLIGHT_ENGINEER=5, COMMANDER=3}, flightDistance=793162, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=18, name=CS Revolution, crew={PILOT=2, MISSION_SPECIALIST=8, FLIGHT_ENGINEER=6, COMMANDER=2}, flightDistance=945886, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=19, name=HWSS Mace, crew={PILOT=4, MISSION_SPECIALIST=8, FLIGHT_ENGINEER=9, COMMANDER=1}, flightDistance=786986, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=20, name=Burn, crew={PILOT=3, MISSION_SPECIALIST=10, FLIGHT_ENGINEER=9, COMMANDER=2}, flightDistance=452842, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=21, name=Fade, crew={PILOT=2, MISSION_SPECIALIST=8, FLIGHT_ENGINEER=8, COMMANDER=3}, flightDistance=776539, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=22, name=Gibraltar, crew={PILOT=3, MISSION_SPECIALIST=10, FLIGHT_ENGINEER=8, COMMANDER=3}, flightDistance=613090, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=23, name=Assassin, crew={PILOT=4, MISSION_SPECIALIST=4, FLIGHT_ENGINEER=8, COMMANDER=3}, flightDistance=650084, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=24, name=Lifebringer, crew={PILOT=2, MISSION_SPECIALIST=6, FLIGHT_ENGINEER=9, COMMANDER=3}, flightDistance=903775, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=25, name=HMS The Titan, crew={PILOT=2, MISSION_SPECIALIST=7, FLIGHT_ENGINEER=8, COMMANDER=1}, flightDistance=347940, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=26, name=CS Pathfinder, crew={PILOT=2, MISSION_SPECIALIST=7, FLIGHT_ENGINEER=9, COMMANDER=2}, flightDistance=475299, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=27, name=HWSS Orion, crew={PILOT=2, MISSION_SPECIALIST=7, FLIGHT_ENGINEER=7, COMMANDER=2}, flightDistance=162029, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=28, name=SS Midway, crew={PILOT=4, MISSION_SPECIALIST=6, FLIGHT_ENGINEER=5, COMMANDER=2}, flightDistance=940875, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Spaceship Spaceship{id=29, name=SC Dakota, crew={PILOT=2, MISSION_SPECIALIST=4, FLIGHT_ENGINEER=5, COMMANDER=1}, flightDistance=318118, isReadyForNextMissions=true, isAssignedForFlightMission=false}  was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 0, name = Mars, location=Point { x = 181, y = 2}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 1, name = Jupiter, location=Point { x = 186, y = 4}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 2, name = Neptune, location=Point { x = 3, y = 10}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 3, name = Korriban, location=Point { x = 107, y = 20}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 4, name = Lehon, location=Point { x = 13, y = 25}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 5, name = Kamino, location=Point { x = 107, y = 31}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 6, name = Endor, location=Point { x = 1, y = 38}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 7, name = Endar Spire, location=Point { x = 37, y = 42}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 8, name = Mercury, location=Point { x = 124, y = 43}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 9, name = Manaan, location=Point { x = 16, y = 49}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 10, name = Taris, location=Point { x = 235, y = 50}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 11, name = Eris, location=Point { x = 124, y = 55}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 12, name = Dantooine, location=Point { x = 30, y = 56}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 13, name = Star Forge, location=Point { x = 216, y = 58}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 14, name = Venus, location=Point { x = 130, y = 63}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 15, name = Leviathan, location=Point { x = 240, y = 65}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 16, name = Haumea, location=Point { x = 81, y = 75}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 17, name = Hoth, location=Point { x = 21, y = 81}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 18, name = Mustafar, location=Point { x = 101, y = 84}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 19, name = Corusant, location=Point { x = 238, y = 86}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 20, name = Tatooine, location=Point { x = 250, y = 94}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 21, name = Starkiller, location=Point { x = 91, y = 99}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 22, name = Saturn, location=Point { x = 150, y = 103}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 23, name = Uranus, location=Point { x = 54, y = 104}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 24, name = Pluto, location=Point { x = 202, y = 105}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 25, name = Planet X, location=Point { x = 109, y = 120}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 26, name = Earth, location=Point { x = 167, y = 122}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 27, name = Kashyyyk, location=Point { x = 23, y = 125}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 28, name = Makemake, location=Point { x = 139, y = 127}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 29, name = Dagobah, location=Point { x = 249, y = 136}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 30, name = Yavin 4, location=Point { x = 35, y = 137}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 31, name = Naboo, location=Point { x = 74, y = 141}} was created
+2021-04-30 22:45:47 INFO  NassaContext - Planet Planet{id = 32, name = Jakku, location=Point { x = 29, y = 143}} was created
+2021-04-30 22:45:47 INFO  NassaContext - creation of entities is completed
+2021-04-30 22:45:47 TRACE NassaContext - init is completed
+2021-04-30 22:45:59 TRACE MainMenu - user input createMissions is being handled
+2021-04-30 22:46:06 TRACE CreateMissionsMenu - User input 10 is being handed
+2021-04-30 22:46:06 INFO  CreateMissionsMenu - Flight mission FlightMission{id = 0, name = Flight mission, missionsName='Mars->Dagobah', startDate=null, endDate=null, distance=null, assignedSpaceShift=null, assignedCrew=[], missionResult=PLANNED was created
+2021-04-30 22:46:06 INFO  CreateMissionsMenu - Flight mission FlightMission{id = 1, name = Flight mission, missionsName='Lehon->Naboo', startDate=null, endDate=null, distance=null, assignedSpaceShift=null, assignedCrew=[], missionResult=PLANNED was created
+2021-04-30 22:46:06 INFO  CreateMissionsMenu - Flight mission FlightMission{id = 2, name = Flight mission, missionsName='Leviathan->Mars', startDate=null, endDate=null, distance=null, assignedSpaceShift=null, assignedCrew=[], missionResult=PLANNED was created
+2021-04-30 22:46:06 INFO  CreateMissionsMenu - Flight mission FlightMission{id = 3, name = Flight mission, missionsName='Venus->Uranus', startDate=null, endDate=null, distance=null, assignedSpaceShift=null, assignedCrew=[], missionResult=PLANNED was created
+2021-04-30 22:46:06 INFO  CreateMissionsMenu - Flight mission FlightMission{id = 4, name = Flight mission, missionsName='Kamino->Starkiller', startDate=null, endDate=null, distance=null, assignedSpaceShift=null, assignedCrew=[], missionResult=PLANNED was created
+2021-04-30 22:46:06 INFO  CreateMissionsMenu - Flight mission FlightMission{id = 5, name = Flight mission, missionsName='Taris->Makemake', startDate=null, endDate=null, distance=null, assignedSpaceShift=null, assignedCrew=[], missionResult=PLANNED was created
+2021-04-30 22:46:06 INFO  CreateMissionsMenu - Flight mission FlightMission{id = 6, name = Flight mission, missionsName='Uranus->Endor', startDate=null, endDate=null, distance=null, assignedSpaceShift=null, assignedCrew=[], missionResult=PLANNED was created
+2021-04-30 22:46:06 INFO  CreateMissionsMenu - Flight mission FlightMission{id = 7, name = Flight mission, missionsName='Earth->Uranus', startDate=null, endDate=null, distance=null, assignedSpaceShift=null, assignedCrew=[], missionResult=PLANNED was created
+2021-04-30 22:46:06 INFO  CreateMissionsMenu - Flight mission FlightMission{id = 8, name = Flight mission, missionsName='Kamino->Star Forge', startDate=null, endDate=null, distance=null, assignedSpaceShift=null, assignedCrew=[], missionResult=PLANNED was created
+2021-04-30 22:46:06 INFO  CreateMissionsMenu - Flight mission FlightMission{id = 9, name = Flight mission, missionsName='Dagobah->Earth', startDate=null, endDate=null, distance=null, assignedSpaceShift=null, assignedCrew=[], missionResult=PLANNED was created
+2021-04-30 22:46:06 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:85)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:59)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:106)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:85)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:59)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:106)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:85)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:59)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:106)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:85)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:59)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:106)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:85)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:59)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:106)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:85)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:59)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:106)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:85)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:59)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:106)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:85)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:59)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:106)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:85)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:59)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:106)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:85)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:59)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:106)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:85)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:59)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:106)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:85)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:59)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:106)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:85)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:59)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:106)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:85)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:59)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:106)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:85)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:59)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:106)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:85)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:59)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:106)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:85)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:59)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:106)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:85)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:59)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:106)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:85)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:59)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:106)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Flight missions already has assigned spaceship
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Flight missions already has assigned spaceship
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.checkForAssign(SpaceShipServiceImpl.java:85)
+	at com.epam.jwd.core_final.service.impl.SpaceShipServiceImpl.assignSpaceshipOnMission(SpaceShipServiceImpl.java:59)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllSpaceShips(CreateMissionsMenu.java:106)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:57)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:89)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:58)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:77)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:89)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:58)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:77)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:89)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:58)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:77)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:89)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:58)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:77)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:89)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:58)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:77)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:89)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:58)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:77)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:89)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:58)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:77)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:89)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:58)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:77)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:89)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:58)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:77)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:89)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:58)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:77)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:89)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:58)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:77)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:89)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:58)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:77)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:89)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:58)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:77)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:89)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:58)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:77)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 ERROR CreateMissionsMenu - Amount of crew members with this role is over the limit
+com.epam.jwd.core_final.exception.NotAbleToBeAssignedException: Amount of crew members with this role is over the limit
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.checkForAssign(CrewServiceImpl.java:89)
+	at com.epam.jwd.core_final.service.impl.CrewServiceImpl.assignCrewMemberOnMission(CrewServiceImpl.java:58)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.assignAllCrewMembers(CreateMissionsMenu.java:77)
+	at com.epam.jwd.core_final.context.impl.CreateMissionsMenu.handleUserInput(CreateMissionsMenu.java:58)
+	at com.epam.jwd.core_final.context.Application.start(Application.java:17)
+	at com.epam.jwd.core_final.app.Main.main(Main.java:14)
+2021-04-30 22:46:07 TRACE CreateMissionsMenu - User input 10 was handled
+2021-04-30 22:46:14 TRACE MainMenu - user input planets is being handled
+2021-04-30 22:46:18 TRACE PlanetsMenu - user input as is being handled
+2021-04-30 22:46:22 TRACE PlanetsMenu - user input printAll is being handled
+2021-04-30 22:46:22 TRACE PlanetsMenu - user input printAll was handled
+2021-04-30 22:46:26 TRACE MainMenu - user input spaceships is being handled
+2021-04-30 22:46:29 TRACE SpaceshipsMenu - user input printAll is being handled
+2021-04-30 22:46:29 TRACE SpaceshipsMenu - user input printAll was handled
+2021-04-30 22:46:41 TRACE MainMenu - user input missions is being handled
+2021-04-30 22:46:44 TRACE FlightMissionsMenu - user input printAll is being handled
+2021-04-30 22:46:44 TRACE FlightMissionsMenu - user input printAll was handled
+2021-04-30 22:47:03 TRACE MainMenu - user input spaceships is being handled
+2021-04-30 22:47:09 TRACE SpaceshipsMenu - user input update is being handled
+2021-04-30 22:47:14 TRACE SpaceshipsMenu - user input update was handled
+2021-04-30 22:47:23 TRACE MainMenu - user input spaceships is being handled
+2021-04-30 22:47:27 TRACE SpaceshipsMenu - user input printAll is being handled
+2021-04-30 22:47:27 TRACE SpaceshipsMenu - user input printAll was handled
+2021-04-30 22:47:46 TRACE MainMenu - user input missions is being handled
+2021-04-30 22:47:49 TRACE FlightMissionsMenu - user input printAll is being handled
+2021-04-30 22:47:49 TRACE FlightMissionsMenu - user input printAll was handled
+2021-04-30 22:48:10 TRACE MainMenu - user input startAll is being handled
+2021-04-30 22:48:10 TRACE StartMissionsMenu - user input null is being handled
+2021-04-30 22:48:10 TRACE StartMissionsMenu - user input null was started
+2021-04-30 22:48:16 TRACE MainMenu - user input simulateAll is being handled
+2021-04-30 22:48:18 TRACE SimulateMissionsMenu - user input 100 is being handled
+2021-04-30 22:48:18 TRACE SimulateMissionsMenu - user input 100 was handled
+2021-04-30 22:48:33 TRACE MainMenu - user input saveAll is being handled
+2021-04-30 22:48:33 TRACE SaveMissionsMenu - saving state of all flight missions in JSON file
+2021-04-30 22:48:33 INFO  SaveMissionsMenu - all missions was saved
+2021-04-30 22:48:33 TRACE SaveMissionsMenu - saving was completed
+2021-04-30 22:48:36 TRACE MainMenu - user input exit is being handled
