@@ -25,7 +25,7 @@ public class FlightMission extends AbstractBaseEntity {
     private LocalDate endDate;
     private Spaceship assignedSpaceShift;
     private Long distance;
-    private List<CrewMember> assignedCrew = new ArrayList<>();
+    private final List<CrewMember> assignedCrew = new ArrayList<>();
     private MissionResult missionResult = MissionResult.PLANNED;
     private Planet from;
     private Planet to;
